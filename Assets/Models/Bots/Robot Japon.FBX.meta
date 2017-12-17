@@ -1,0 +1,314 @@
+fileFormatVersion: 2
+guid: 1c731bb730b505a4c882e9e4871c204d
+timeCreated: 1512930702
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Box002
+    100002: Cabeza
+    100004: Caderas
+    100006: Conexion Hombrera Derecha
+    100008: Conexion Hombrera Izquierda
+    100010: Gacha Derecha
+    100012: Gacha Izquierda
+    100014: Hombreras
+    100016: LED TV
+    100018: Object016
+    100020: Object017
+    100022: Object018
+    100024: Object019
+    100026: Object020
+    100028: Object021
+    100030: Perna Delantera Izquierda01
+    100032: Perna Delantera Izquierda02
+    100034: Perna Delantera Izquierda03
+    100036: Perna Delantera Izquierda04
+    100038: Perna Delantera Izquierda05
+    100040: Pierna Atras Derecha
+    100042: Pierna Atras Derecha01
+    100044: Pierna Atras Derecha02
+    100046: Pierna Atras Derecha03
+    100048: Pierna Atras Derecha04
+    100050: Pierna Atras Derecha05
+    100052: 'Pierna Atras Izquierda '
+    100054: Pierna Atras Izquierda 01
+    100056: Pierna Atras Izquierda 02
+    100058: Pierna Atras Izquierda 03
+    100060: Pierna Atras Izquierda 04
+    100062: Pierna Atras Izquierda 05
+    100064: Pierna Delantera Izquierda
+    100066: Pierna Delantera Izquierda 1
+    100068: Pierna Original073
+    100070: Pierna Original076
+    100072: Pierna Original077
+    100074: Pierna Original078
+    100076: Pierna Original081
+    100078: //RootNode
+    100080: scouter
+    100082: Sombrero
+    100084: Torso
+    400000: Box002
+    400002: Cabeza
+    400004: Caderas
+    400006: Conexion Hombrera Derecha
+    400008: Conexion Hombrera Izquierda
+    400010: Gacha Derecha
+    400012: Gacha Izquierda
+    400014: Hombreras
+    400016: LED TV
+    400018: Object016
+    400020: Object017
+    400022: Object018
+    400024: Object019
+    400026: Object020
+    400028: Object021
+    400030: Perna Delantera Izquierda01
+    400032: Perna Delantera Izquierda02
+    400034: Perna Delantera Izquierda03
+    400036: Perna Delantera Izquierda04
+    400038: Perna Delantera Izquierda05
+    400040: Pierna Atras Derecha
+    400042: Pierna Atras Derecha01
+    400044: Pierna Atras Derecha02
+    400046: Pierna Atras Derecha03
+    400048: Pierna Atras Derecha04
+    400050: Pierna Atras Derecha05
+    400052: 'Pierna Atras Izquierda '
+    400054: Pierna Atras Izquierda 01
+    400056: Pierna Atras Izquierda 02
+    400058: Pierna Atras Izquierda 03
+    400060: Pierna Atras Izquierda 04
+    400062: Pierna Atras Izquierda 05
+    400064: Pierna Delantera Izquierda
+    400066: Pierna Delantera Izquierda 1
+    400068: Pierna Original073
+    400070: Pierna Original076
+    400072: Pierna Original077
+    400074: Pierna Original078
+    400076: Pierna Original081
+    400078: //RootNode
+    400080: scouter
+    400082: Sombrero
+    400084: Torso
+    2300000: Box002
+    2300002: Cabeza
+    2300004: Caderas
+    2300006: Conexion Hombrera Derecha
+    2300008: Conexion Hombrera Izquierda
+    2300010: Hombreras
+    2300012: LED TV
+    2300014: Object016
+    2300016: Object017
+    2300018: Object018
+    2300020: Object019
+    2300022: Object020
+    2300024: Object021
+    2300026: Perna Delantera Izquierda01
+    2300028: Perna Delantera Izquierda02
+    2300030: Perna Delantera Izquierda03
+    2300032: Perna Delantera Izquierda04
+    2300034: Perna Delantera Izquierda05
+    2300036: Pierna Atras Derecha01
+    2300038: Pierna Atras Derecha02
+    2300040: Pierna Atras Derecha03
+    2300042: Pierna Atras Derecha04
+    2300044: Pierna Atras Derecha05
+    2300046: Pierna Atras Izquierda 01
+    2300048: Pierna Atras Izquierda 02
+    2300050: Pierna Atras Izquierda 03
+    2300052: Pierna Atras Izquierda 04
+    2300054: Pierna Atras Izquierda 05
+    2300056: Pierna Original073
+    2300058: Pierna Original076
+    2300060: Pierna Original077
+    2300062: Pierna Original078
+    2300064: Pierna Original081
+    2300066: scouter
+    2300068: Sombrero
+    2300070: Torso
+    3300000: Box002
+    3300002: Cabeza
+    3300004: Caderas
+    3300006: Conexion Hombrera Derecha
+    3300008: Conexion Hombrera Izquierda
+    3300010: Hombreras
+    3300012: LED TV
+    3300014: Object016
+    3300016: Object017
+    3300018: Object018
+    3300020: Object019
+    3300022: Object020
+    3300024: Object021
+    3300026: Perna Delantera Izquierda01
+    3300028: Perna Delantera Izquierda02
+    3300030: Perna Delantera Izquierda03
+    3300032: Perna Delantera Izquierda04
+    3300034: Perna Delantera Izquierda05
+    3300036: Pierna Atras Derecha01
+    3300038: Pierna Atras Derecha02
+    3300040: Pierna Atras Derecha03
+    3300042: Pierna Atras Derecha04
+    3300044: Pierna Atras Derecha05
+    3300046: Pierna Atras Izquierda 01
+    3300048: Pierna Atras Izquierda 02
+    3300050: Pierna Atras Izquierda 03
+    3300052: Pierna Atras Izquierda 04
+    3300054: Pierna Atras Izquierda 05
+    3300056: Pierna Original073
+    3300058: Pierna Original076
+    3300060: Pierna Original077
+    3300062: Pierna Original078
+    3300064: Pierna Original081
+    3300066: scouter
+    3300068: Sombrero
+    3300070: Torso
+    4300000: Pierna Atras Izquierda 01
+    4300002: Pierna Atras Izquierda 02
+    4300004: Pierna Atras Izquierda 03
+    4300006: Pierna Atras Izquierda 04
+    4300008: Pierna Atras Izquierda 05
+    4300010: Pierna Atras Derecha01
+    4300012: Pierna Atras Derecha02
+    4300014: Pierna Atras Derecha03
+    4300016: Pierna Atras Derecha04
+    4300018: Pierna Atras Derecha05
+    4300020: Object018
+    4300022: Object020
+    4300024: Object021
+    4300026: Pierna Original073
+    4300028: Pierna Original076
+    4300030: Pierna Original077
+    4300032: Pierna Original078
+    4300034: Pierna Original081
+    4300036: Object016
+    4300038: Object017
+    4300040: Object019
+    4300042: Hombreras
+    4300044: Torso
+    4300046: Box002
+    4300048: Cabeza
+    4300050: scouter
+    4300052: LED TV
+    4300054: Conexion Hombrera Izquierda
+    4300056: Caderas
+    4300058: Conexion Hombrera Derecha
+    4300060: Perna Delantera Izquierda01
+    4300062: Perna Delantera Izquierda02
+    4300064: Perna Delantera Izquierda03
+    4300066: Perna Delantera Izquierda04
+    4300068: Perna Delantera Izquierda05
+    4300070: Sombrero
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 07 - Default
+    second: {fileID: 2100000, guid: 7e699c3ab30af1348a2e63bfa72113c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 08 - Default
+    second: {fileID: 2100000, guid: 18e54e6f0dd020e4a8eb9ff078a5524b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #3'
+    second: {fileID: 2100000, guid: 10fefb5e1bda5ac418225f6774d7cea8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #4'
+    second: {fileID: 2100000, guid: 87961bb52ec376b4499e7006edf5f8ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #5'
+    second: {fileID: 2100000, guid: 0326a20953e427840806e7eec43808f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #6'
+    second: {fileID: 2100000, guid: 0446df3d228ed904497e0afe252057fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 603f406d0fd3341499699f08564893fe, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

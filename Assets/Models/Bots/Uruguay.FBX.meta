@@ -1,0 +1,209 @@
+fileFormatVersion: 2
+guid: 049be5934ffe1ad4590f149eee0fa00d
+timeCreated: 1509750492
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Anillo chico
+    100002: Anillo grande
+    100004: Anillo mediano
+    100006: Bong
+    100008: Brazo Derecho
+    100010: Brazo Izquierdo
+    100012: Correas
+    100014: Line001
+    100016: Line002
+    100018: Object004
+    100020: Object015
+    100022: Object016
+    100024: Object017
+    100026: Object018
+    100028: Platonic
+    100030: Torso
+    100032: //RootNode
+    400000: Anillo chico
+    400002: Anillo grande
+    400004: Anillo mediano
+    400006: Bong
+    400008: Brazo Derecho
+    400010: Brazo Izquierdo
+    400012: Correas
+    400014: Line001
+    400016: Line002
+    400018: Object004
+    400020: Object015
+    400022: Object016
+    400024: Object017
+    400026: Object018
+    400028: Platonic
+    400030: Torso
+    400032: //RootNode
+    2300000: Anillo chico
+    2300002: Anillo grande
+    2300004: Anillo mediano
+    2300006: Bong
+    2300008: Brazo Derecho
+    2300010: Brazo Izquierdo
+    2300012: Line001
+    2300014: Line002
+    2300016: Object004
+    2300018: Object015
+    2300020: Object016
+    2300022: Object017
+    2300024: Object018
+    2300026: Platonic
+    2300028: Torso
+    3300000: Anillo chico
+    3300002: Anillo grande
+    3300004: Anillo mediano
+    3300006: Bong
+    3300008: Brazo Derecho
+    3300010: Brazo Izquierdo
+    3300012: Line001
+    3300014: Line002
+    3300016: Object004
+    3300018: Object015
+    3300020: Object016
+    3300022: Object017
+    3300024: Object018
+    3300026: Platonic
+    3300028: Torso
+    4300000: Torso
+    4300002: Object004
+    4300004: Anillo grande
+    4300006: Anillo mediano
+    4300008: Anillo chico
+    4300010: Brazo Derecho
+    4300012: Brazo Izquierdo
+    4300014: Platonic
+    4300016: Bong
+    4300018: Object015
+    4300020: Object016
+    4300022: Object017
+    4300024: Object018
+    4300026: Line002
+    4300028: Line001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 03 - Default
+    second: {fileID: 2100000, guid: 8d2497142e2fdbe4a839b3760adbc7b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 07 - Default
+    second: {fileID: 2100000, guid: 7e699c3ab30af1348a2e63bfa72113c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 08 - Default
+    second: {fileID: 2100000, guid: 18e54e6f0dd020e4a8eb9ff078a5524b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 08 - Defaultasd
+    second: {fileID: 2100000, guid: a2fa15606bac4234eafce317843d053e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 14 - Default
+    second: {fileID: 2100000, guid: a372402d946d8414981513cdc860ba9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 21 - Default
+    second: {fileID: 2100000, guid: bf3ba840d02550945aba9b4fb01b6850, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #1'
+    second: {fileID: 2100000, guid: 6bf1a31f19d70ee4794ce7f71eda04e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Planet1Material_002
+    second: {fileID: 2100000, guid: d220c48583231264b959d8bb8ae85b55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _soccer ballPlatonic
+    second: {fileID: 2100000, guid: 5d6b1577f38297c449a884b65d373a63, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,320 @@
+fileFormatVersion: 2
+guid: 5383252ea1d98b842aaf537a4c6b05cf
+timeCreated: 1509746551
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Armadura Brazo Derecho006
+    100002: Armadura Brazo Derecho009
+    100004: Botella010
+    100006: Botella011
+    100008: Box004
+    100010: Brazo Derecho
+    100012: Brazo Derecho010
+    100014: Brazo Derecho016
+    100016: Brazo Derecho017
+    100018: Circulo Brazo010
+    100020: Circulo Brazo011
+    100022: Cylinder034
+    100024: Cylinder053
+    100026: Cylinder054
+    100028: Cylinder057
+    100030: Esfera Brazo010
+    100032: Esfera Brazo011
+    100034: Estrella005
+    100036: Gorro004
+    100038: low_poly_bear
+    100040: Luces005
+    100042: Object012
+    100044: Object013
+    100046: Object014
+    100048: Orugas Derecha005
+    100050: Orugas Izquierda005
+    100052: Parte Inferior / Tanque
+    100054: Parte Superior / Torso
+    100056: Rueda Chica010
+    100058: Rueda Chica011
+    100060: Rueda Grande 031
+    100062: Rueda Grande 032
+    100064: Rueda Grande 033
+    100066: Rueda Grande 034
+    100068: Rueda Grande 035
+    100070: Rueda Grande 036
+    100072: Rueda Mediana010
+    100074: Rueda Mediana011
+    100076: Ruedas Derecha005
+    100078: Ruedas Izquierda005
+    100080: //RootNode
+    100082: Tanque011
+    100084: Tanque013
+    400000: Armadura Brazo Derecho006
+    400002: Armadura Brazo Derecho009
+    400004: Botella010
+    400006: Botella011
+    400008: Box004
+    400010: Brazo Derecho
+    400012: Brazo Derecho010
+    400014: Brazo Derecho016
+    400016: Brazo Derecho017
+    400018: Circulo Brazo010
+    400020: Circulo Brazo011
+    400022: Cylinder034
+    400024: Cylinder053
+    400026: Cylinder054
+    400028: Cylinder057
+    400030: Esfera Brazo010
+    400032: Esfera Brazo011
+    400034: Estrella005
+    400036: Gorro004
+    400038: low_poly_bear
+    400040: Luces005
+    400042: Object012
+    400044: Object013
+    400046: Object014
+    400048: Orugas Derecha005
+    400050: Orugas Izquierda005
+    400052: Parte Inferior / Tanque
+    400054: Parte Superior / Torso
+    400056: Rueda Chica010
+    400058: Rueda Chica011
+    400060: Rueda Grande 031
+    400062: Rueda Grande 032
+    400064: Rueda Grande 033
+    400066: Rueda Grande 034
+    400068: Rueda Grande 035
+    400070: Rueda Grande 036
+    400072: Rueda Mediana010
+    400074: Rueda Mediana011
+    400076: Ruedas Derecha005
+    400078: Ruedas Izquierda005
+    400080: //RootNode
+    400082: Tanque011
+    400084: Tanque013
+    2300000: Armadura Brazo Derecho006
+    2300002: Armadura Brazo Derecho009
+    2300004: Botella010
+    2300006: Botella011
+    2300008: Box004
+    2300010: Brazo Derecho010
+    2300012: Brazo Derecho017
+    2300014: Circulo Brazo010
+    2300016: Circulo Brazo011
+    2300018: Cylinder034
+    2300020: Cylinder053
+    2300022: Cylinder054
+    2300024: Cylinder057
+    2300026: Esfera Brazo010
+    2300028: Esfera Brazo011
+    2300030: Estrella005
+    2300032: Gorro004
+    2300034: Luces005
+    2300036: Object012
+    2300038: Object013
+    2300040: Object014
+    2300042: Orugas Derecha005
+    2300044: Orugas Izquierda005
+    2300046: Rueda Chica010
+    2300048: Rueda Chica011
+    2300050: Rueda Grande 031
+    2300052: Rueda Grande 032
+    2300054: Rueda Grande 033
+    2300056: Rueda Grande 034
+    2300058: Rueda Grande 035
+    2300060: Rueda Grande 036
+    2300062: Rueda Mediana010
+    2300064: Rueda Mediana011
+    2300066: Tanque011
+    3300000: Armadura Brazo Derecho006
+    3300002: Armadura Brazo Derecho009
+    3300004: Botella010
+    3300006: Botella011
+    3300008: Box004
+    3300010: Brazo Derecho010
+    3300012: Brazo Derecho017
+    3300014: Circulo Brazo010
+    3300016: Circulo Brazo011
+    3300018: Cylinder034
+    3300020: Cylinder053
+    3300022: Cylinder054
+    3300024: Cylinder057
+    3300026: Esfera Brazo010
+    3300028: Esfera Brazo011
+    3300030: Estrella005
+    3300032: Gorro004
+    3300034: Luces005
+    3300036: Object012
+    3300038: Object013
+    3300040: Object014
+    3300042: Orugas Derecha005
+    3300044: Orugas Izquierda005
+    3300046: Rueda Chica010
+    3300048: Rueda Chica011
+    3300050: Rueda Grande 031
+    3300052: Rueda Grande 032
+    3300054: Rueda Grande 033
+    3300056: Rueda Grande 034
+    3300058: Rueda Grande 035
+    3300060: Rueda Grande 036
+    3300062: Rueda Mediana010
+    3300064: Rueda Mediana011
+    3300066: Tanque011
+    4300000: Orugas Izquierda005
+    4300002: Cylinder053
+    4300004: Tanque011
+    4300006: Luces005
+    4300008: Object014
+    4300010: Orugas Derecha005
+    4300012: Rueda Grande 031
+    4300014: Rueda Mediana010
+    4300016: Rueda Grande 035
+    4300018: Rueda Grande 036
+    4300020: Rueda Chica011
+    4300022: Rueda Grande 032
+    4300024: Rueda Grande 033
+    4300026: Rueda Chica010
+    4300028: Rueda Mediana011
+    4300030: Rueda Grande 034
+    4300032: Cylinder034
+    4300034: Esfera Brazo010
+    4300036: Circulo Brazo010
+    4300038: Botella011
+    4300040: Object013
+    4300042: Circulo Brazo011
+    4300044: Cylinder057
+    4300046: Esfera Brazo011
+    4300048: Cylinder054
+    4300050: Botella010
+    4300052: Box004
+    4300054: Object012
+    4300056: Gorro004
+    4300058: Estrella005
+    4300060: Armadura Brazo Derecho006
+    4300062: Brazo Derecho010
+    4300064: Armadura Brazo Derecho009
+    4300066: Brazo Derecho017
+    4300068: low_poly_bear
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: low_poly_bear
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 07 - Default
+    second: {fileID: 2100000, guid: 7e699c3ab30af1348a2e63bfa72113c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #24'
+    second: {fileID: 2100000, guid: 318f2158725088e4d92d6220d408c779, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 603f406d0fd3341499699f08564893fe, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 125
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

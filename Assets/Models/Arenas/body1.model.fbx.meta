@@ -1,0 +1,217 @@
+fileFormatVersion: 2
+guid: 593ccb1a36e1f6b4a8aba68527761555
+timeCreated: 1511012674
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: block_default_13
+    100002: //RootNode
+    100004: cylinder_hollow_19
+    100006: detail_airSmall_18
+    100008: detail_signRectangle_11
+    100010: detail_solarPanel_12
+    100012: road_block_0
+    100014: road_block_1
+    100016: road_block_7
+    100018: road_block_8
+    100020: roof_corner_2
+    100022: roof_corner_3
+    100024: roof_helipad_4
+    100026: roof_side_5
+    100028: roof_side_6
+    100030: roof_windowGlass%_10
+    100032: roof_windowGlass%_14
+    100034: roof_windowGlass%_15
+    100036: roof_windowGlass%_16
+    100038: roof_windowGlass%_17
+    100040: wall_border_9
+    400000: block_default_13
+    400002: //RootNode
+    400004: cylinder_hollow_19
+    400006: detail_airSmall_18
+    400008: detail_signRectangle_11
+    400010: detail_solarPanel_12
+    400012: road_block_0
+    400014: road_block_1
+    400016: road_block_7
+    400018: road_block_8
+    400020: roof_corner_2
+    400022: roof_corner_3
+    400024: roof_helipad_4
+    400026: roof_side_5
+    400028: roof_side_6
+    400030: roof_windowGlass%_10
+    400032: roof_windowGlass%_14
+    400034: roof_windowGlass%_15
+    400036: roof_windowGlass%_16
+    400038: roof_windowGlass%_17
+    400040: wall_border_9
+    2300000: block_default_13
+    2300002: cylinder_hollow_19
+    2300004: detail_airSmall_18
+    2300006: detail_signRectangle_11
+    2300008: detail_solarPanel_12
+    2300010: road_block_0
+    2300012: road_block_1
+    2300014: road_block_7
+    2300016: road_block_8
+    2300018: roof_corner_2
+    2300020: roof_corner_3
+    2300022: roof_helipad_4
+    2300024: roof_side_5
+    2300026: roof_side_6
+    2300028: roof_windowGlass%_10
+    2300030: roof_windowGlass%_14
+    2300032: roof_windowGlass%_15
+    2300034: roof_windowGlass%_16
+    2300036: roof_windowGlass%_17
+    2300038: wall_border_9
+    3300000: block_default_13
+    3300002: cylinder_hollow_19
+    3300004: detail_airSmall_18
+    3300006: detail_signRectangle_11
+    3300008: detail_solarPanel_12
+    3300010: road_block_0
+    3300012: road_block_1
+    3300014: road_block_7
+    3300016: road_block_8
+    3300018: roof_corner_2
+    3300020: roof_corner_3
+    3300022: roof_helipad_4
+    3300024: roof_side_5
+    3300026: roof_side_6
+    3300028: roof_windowGlass%_10
+    3300030: roof_windowGlass%_14
+    3300032: roof_windowGlass%_15
+    3300034: roof_windowGlass%_16
+    3300036: roof_windowGlass%_17
+    3300038: wall_border_9
+    4300000: road_block_0
+    4300002: road_block_1
+    4300004: roof_corner_2
+    4300006: roof_corner_3
+    4300008: roof_helipad_4
+    4300010: roof_side_5
+    4300012: roof_side_6
+    4300014: road_block_7
+    4300016: road_block_8
+    4300018: wall_border_9
+    4300020: roof_windowGlass%_10
+    4300022: detail_signRectangle_11
+    4300024: detail_solarPanel_12
+    4300026: block_default_13
+    4300028: roof_windowGlass%_14
+    4300030: roof_windowGlass%_15
+    4300032: roof_windowGlass%_16
+    4300034: roof_windowGlass%_17
+    4300036: detail_airSmall_18
+    4300038: cylinder_hollow_19
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _defaultMat
+    second: {fileID: 2100000, guid: 0607d730a8f567840aac7d70231264e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass
+    second: {fileID: 2100000, guid: 55ffc42241742af439f1df2d68310ca8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lightStone
+    second: {fileID: 2100000, guid: 0fd52b3e2e8b08948932725140bc088b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roof
+    second: {fileID: 2100000, guid: 41f78fd465e4e2349a7e3823fc45db5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: satellite
+    second: {fileID: 2100000, guid: d2d8e8df06be9c04387e63be17837546, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stone
+    second: {fileID: 2100000, guid: 830aa53ce76122b45a9a8029d125c33e, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
