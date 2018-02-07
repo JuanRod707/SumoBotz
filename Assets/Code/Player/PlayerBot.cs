@@ -1,32 +1,47 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using System.Linq;
 
-public class PlayerBot : MonoBehaviour
+namespace Code.Player
 {
-    public Nationality Country;
-    public BotData Stats;
-    public int PlayerId;
-    public int CurrentHealth;
-    public LowerPartMovement LowerController;
-    public UpperPartMovement UpperController;
-    [HideInInspector] public WeaponSystem Weapons;
+    using Code.Interfaces;
+    using UnityEngine;
 
-    void Start()
+    public class PlayerBot : MonoBehaviour, IDamageable
     {
-        CurrentHealth = Stats.MaxHealth;
-        LowerController.LoadStats(Stats);
-    }
+        public Nationality Country;
+        public BotData Stats;
+        public int PlayerId;
+        public LowerPartMovement LowerController;
+        public UpperPartMovement UpperController;
+        [HideInInspector] public WeaponSystem Weapons;
 
-    public void LoadPrimary(GameObject weapon)
-    {
-        Weapons = this.GetComponentInChildren<WeaponSystem>();
-        Weapons.LoadPrimary(weapon);
-    }
+        private BotUIController uiController;
+        private int currentHp;
 
-    public void LoadSecondary(GameObject weapon)
-    {
-        Weapons = this.GetComponentInChildren<WeaponSystem>();
-        Weapons.LoadSecondary(weapon);
+        public void Initialize(GameObject primary, GameObject secondary)
+        {
+            LowerController.LoadStats(Stats);
+            currentHp = Stats.MaxHealth;
+
+            Weapons = this.GetComponentInChildren<WeaponSystem>();
+            Weapons.LoadPrimary(primary);
+            Weapons.LoadSecondary(secondary);
+
+            uiController = GetComponent<BotUIController>();
+            uiController.Initialize(Stats, primary.GetComponent<PrimaryWeaponBase>().GetStats , secondary.GetComponent<SecondaryWeaponBase>().GetStats);
+
+            uiController.UpdateHp(currentHp);
+        }
+        
+        public void ReceiveDamage(int damage)
+        {
+            currentHp -= damage;
+            uiController.UpdateHp(currentHp);
+
+            if (currentHp <= 0)
+            {
+                currentHp = 0;
+                //EXPLODE
+            }
+        }
     }
 }

@@ -1,7 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using Code.Player;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class PlayerInput : MonoBehaviour
 {

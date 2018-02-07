@@ -7,7 +7,12 @@ public class WalkingOnSunshine : SecondaryWeaponBase
 
     private AudioSource sfx;
     private Rigidbody botBody;
-    
+
+    public override SecondaryWeaponStats GetStats
+    {
+        get { return Stats; }
+    }
+
     void FixedUpdate()
     {
         if (isActive)

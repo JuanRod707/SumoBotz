@@ -12,8 +12,9 @@ public class MineLauncher : PrimaryWeaponBase
         get { return Stats.PushForce; }
     }
 
-    void Start()
+    public override PrimaryWeaponStats GetStats
     {
+        get { return Stats; }
     }
 
     void FixedUpdate()

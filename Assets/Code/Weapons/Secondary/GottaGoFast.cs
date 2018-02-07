@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Code.Player;
+using UnityEngine;
 
 public class GottaGoFast : SecondaryWeaponBase
 {
@@ -9,7 +10,12 @@ public class GottaGoFast : SecondaryWeaponBase
     private BotData stats;
     private float baseTopSpeed;
     private float baseSpeed;
-    
+
+    public override SecondaryWeaponStats GetStats
+    {
+        get { return Stats; }
+    }
+
     void FixedUpdate()
     {
         if (isActive)

@@ -11,6 +11,11 @@ public class RocketLauncher : PrimaryWeaponBase
         get { return Stats.PushForce; }
     }
 
+    public override PrimaryWeaponStats GetStats
+    {
+        get { return Stats; }
+    }
+
     void Start()
     {
         rocket = this.GetComponentInChildren<GuidedKinematic>();

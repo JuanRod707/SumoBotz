@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Code.Player;
+using UnityEngine;
 
 public class Emp : SecondaryWeaponBase
 {
@@ -6,6 +7,11 @@ public class Emp : SecondaryWeaponBase
     public GameObject EmpPrefab;
 
     private int playerId;
+
+    public override SecondaryWeaponStats GetStats
+    {
+        get { return Stats; }
+    }
 
     void Start()
     {

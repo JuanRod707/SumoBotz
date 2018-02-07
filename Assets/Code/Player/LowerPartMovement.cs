@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Code.Player;
 using UnityEngine;
 
 public class LowerPartMovement : MonoBehaviour
@@ -67,6 +68,7 @@ public class LowerPartMovement : MonoBehaviour
             dashElapsed = botStats.DashDuration;
             dashIsCoolingDown = true;
             dashCooldownElapsed = botStats.DashCooldown;
+            GetComponentInParent<BotUIController>().ResetDashCooldown();
         }
     }
 

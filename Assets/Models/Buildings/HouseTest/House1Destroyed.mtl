@@ -1,0 +1,12 @@
+# Made using Asset Forge (www.assetforge.io) version 1.3 
+
+newmtl bricks (Instance) (Instance)
+Ka 0.000000 0.000000 0.000000 
+Kd 0.886 0.467 0.341 
+Ks 0.330000 0.330000 0.330000 
+
+newmtl wood (Instance) (Instance)
+Ka 0.000000 0.000000 0.000000 
+Kd 0.882 0.579 0.402 
+Ks 0.330000 0.330000 0.330000 
+

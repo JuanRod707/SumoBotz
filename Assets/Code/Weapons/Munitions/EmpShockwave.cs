@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Code.Player;
+using UnityEngine;
 
 public class EmpShockwave : MonoBehaviour
 {

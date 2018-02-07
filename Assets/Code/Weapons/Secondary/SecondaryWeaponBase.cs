@@ -11,6 +11,11 @@ public abstract class SecondaryWeaponBase : MonoBehaviour
     protected float effectElapsed;
     protected bool isActive;
 
+    public virtual SecondaryWeaponStats GetStats
+    {
+        get { return null; }
+    }
+
     protected virtual void Initialize()
     {
     }

@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using Code.Interfaces;
+using Code.Player;
+using UnityEngine;
 
 public class GatlingGun : PrimaryWeaponBase
 {
@@ -11,15 +13,22 @@ public class GatlingGun : PrimaryWeaponBase
     private float fireElapsed;
     private AudioSource GunClip;
     private float rofElapsed;
+    private BotUIController uiController;
 
     public override float PushForce
     {
         get { return Stats.PushForce; }
     }
 
+    public override PrimaryWeaponStats GetStats
+    {
+        get { return Stats; }
+    }
+
     void Start()
     {
         GunClip = this.GetComponent<AudioSource>();
+        uiController = GetComponentInParent<BotUIController>();
     }
 
     void FixedUpdate()
@@ -56,12 +65,15 @@ public class GatlingGun : PrimaryWeaponBase
             {
                 DisplayGunshot(hit.point);
                 Instantiate(ShotHitPf, hit.point, Quaternion.identity);
+                DamageTarget(hit);
                 Push(hit);
             }
             else
             {
                 DisplayGunshot(ray.GetPoint(Stats.Range));
             }
+
+            uiController.ResetPrimaryCooldown();
         }
     }
 
@@ -88,6 +100,21 @@ public class GatlingGun : PrimaryWeaponBase
             var body = hit.collider.GetComponentInParent<Rigidbody>();
             var pushVector = this.transform.forward;
             body.AddForce(pushVector * Stats.PushForce);
+        }
+    }
+
+    void DamageTarget(RaycastHit hit)
+    {
+        var dmgBody = hit.collider.GetComponent<IDamageable>();
+
+        if (dmgBody == null)
+        {
+            dmgBody = hit.collider.GetComponentInParent<IDamageable>();
+        }
+
+        if(dmgBody != null)
+        {
+            dmgBody.ReceiveDamage(Stats.Damage);
         }
     }
 }

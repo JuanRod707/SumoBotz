@@ -1,4 +1,5 @@
 ﻿using System;
+using Code.Player;
 using UnityEngine;
 
 public class ArenaFall : MonoBehaviour

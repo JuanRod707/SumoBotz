@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using Code.Player;
 using UnityEngine;
 
 public class PlayerLoader :MonoBehaviour
@@ -33,8 +34,7 @@ public class PlayerLoader :MonoBehaviour
         foreach (var ldt in DefaultLoadouts)
         {
             var bot = Instantiate(resources.GetBot(ldt.Country), SpawnPoints[playerIndex].position, Quaternion.identity).GetComponent<PlayerBot>();
-            bot.LoadPrimary(resources.GetPrimary(ldt.PrimaryWeapon));
-            bot.LoadSecondary(resources.GetSecondary(ldt.SecondaryWeapon));
+            bot.Initialize(resources.GetPrimary(ldt.PrimaryWeapon), resources.GetSecondary(ldt.SecondaryWeapon));
             bot.PlayerId = playerIndex + 1;
 
             playerIndex++;
@@ -50,8 +50,7 @@ public class PlayerLoader :MonoBehaviour
             {
                 var bot = Instantiate(resources.GetBot(ldt.Country), SpawnPoints[playerIndex].position,
                     Quaternion.identity).GetComponent<PlayerBot>();
-                bot.LoadPrimary(resources.GetPrimary(ldt.PrimaryWeapon));
-                bot.LoadSecondary(resources.GetSecondary(ldt.SecondaryWeapon));
+                bot.Initialize(resources.GetPrimary(ldt.PrimaryWeapon), resources.GetSecondary(ldt.SecondaryWeapon));
                 bot.PlayerId = playerIndex + 1;
             }
 
