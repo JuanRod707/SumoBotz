@@ -99,7 +99,10 @@ public class GatlingGun : PrimaryWeaponBase
         {
             var body = hit.collider.GetComponentInParent<Rigidbody>();
             var pushVector = this.transform.forward;
-            body.AddForce(pushVector * Stats.PushForce);
+            if (body != null)
+            {
+                body.AddForce(pushVector * Stats.PushForce);
+            }
         }
     }
 

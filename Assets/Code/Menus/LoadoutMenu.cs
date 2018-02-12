@@ -8,7 +8,7 @@ public class LoadoutMenu :MonoBehaviour
 {
     public LoadoutPanel[] Panels;
 
-    public void StartMatch()
+    public void StartMatch(string sceneName)
     {
         GameState.Loadouts = new Loadout[4];
 
@@ -17,6 +17,6 @@ public class LoadoutMenu :MonoBehaviour
             GameState.Loadouts[i] = Panels[i].GetLoadout();
         }
 
-        SceneManager.LoadScene("Test");
+        SceneManager.LoadScene(sceneName);
     }
 }

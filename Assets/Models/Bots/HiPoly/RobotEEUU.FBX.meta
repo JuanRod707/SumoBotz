@@ -1,0 +1,300 @@
+fileFormatVersion: 2
+guid: 27ce58c4ea28be7468bb21def7b80885
+timeCreated: 1518447175
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Ala Derecha
+    100002: Ala Izquierda
+    100004: Armadura Auto
+    100006: Boton Izquierdo Boton Externo
+    100008: Boton Izquierdo Boton Interior
+    100010: Brazo Derecho
+    100012: Brazo Derecho Boton Externo
+    100014: 'Brazo Derecho Boton Interior '
+    100016: Brazo Izquierdo
+    100018: Cabeza
+    100020: Cejas y Ojos
+    100022: Esfera
+    100024: Estrella Derecha Inferior Adelante
+    100026: Estrella Derecha Inferior Atras
+    100028: Estrella Derecha Medio Adelante
+    100030: Estrella Derecha Medio Atras
+    100032: Estrella Derecha Superior Adelante
+    100034: Estrella Derecha Superior Atras
+    100036: Estrella Izquierda Inferior Adelante
+    100038: Estrella Izquierda Inferior Atras
+    100040: Estrella Izquierda Medio Adelante
+    100042: Estrella Izquierda Medio Atras
+    100044: Estrella Izquierda Superior Adelante
+    100046: Estrella Izquierda Superior Atras
+    100048: Estrella Medio Inferior
+    100050: Estrella Medio Medio
+    100052: Estrella Medio Superior
+    100054: Falda Costados
+    100056: Hombro Derecho
+    100058: Hombro Izquierdo
+    100060: Mohawk
+    100062: Pechera
+    100064: Pico Inferior
+    100066: Pico Superior
+    100068: Pluma Azul Derecha
+    100070: Pluma Azul Izquierda
+    100072: Pluma Blanca Derecha
+    100074: Pluma Blanca Izquierda
+    100076: Pluma Roja Derecha
+    100078: Pluma Roja Izquierda
+    100080: //RootNode
+    100082: Torso
+    400000: Ala Derecha
+    400002: Ala Izquierda
+    400004: Armadura Auto
+    400006: Boton Izquierdo Boton Externo
+    400008: Boton Izquierdo Boton Interior
+    400010: Brazo Derecho
+    400012: Brazo Derecho Boton Externo
+    400014: 'Brazo Derecho Boton Interior '
+    400016: Brazo Izquierdo
+    400018: Cabeza
+    400020: Cejas y Ojos
+    400022: Esfera
+    400024: Estrella Derecha Inferior Adelante
+    400026: Estrella Derecha Inferior Atras
+    400028: Estrella Derecha Medio Adelante
+    400030: Estrella Derecha Medio Atras
+    400032: Estrella Derecha Superior Adelante
+    400034: Estrella Derecha Superior Atras
+    400036: Estrella Izquierda Inferior Adelante
+    400038: Estrella Izquierda Inferior Atras
+    400040: Estrella Izquierda Medio Adelante
+    400042: Estrella Izquierda Medio Atras
+    400044: Estrella Izquierda Superior Adelante
+    400046: Estrella Izquierda Superior Atras
+    400048: Estrella Medio Inferior
+    400050: Estrella Medio Medio
+    400052: Estrella Medio Superior
+    400054: Falda Costados
+    400056: Hombro Derecho
+    400058: Hombro Izquierdo
+    400060: Mohawk
+    400062: Pechera
+    400064: Pico Inferior
+    400066: Pico Superior
+    400068: Pluma Azul Derecha
+    400070: Pluma Azul Izquierda
+    400072: Pluma Blanca Derecha
+    400074: Pluma Blanca Izquierda
+    400076: Pluma Roja Derecha
+    400078: Pluma Roja Izquierda
+    400080: //RootNode
+    400082: Torso
+    2100000: 07 - Default
+    2100002: 08 - Default
+    2100004: 09 - Default
+    2100006: 14 - Default
+    2100008: No Name
+    2100010: 13 - Default
+    2300000: Ala Derecha
+    2300002: Ala Izquierda
+    2300004: Armadura Auto
+    2300006: Boton Izquierdo Boton Externo
+    2300008: Boton Izquierdo Boton Interior
+    2300010: Brazo Derecho
+    2300012: Brazo Derecho Boton Externo
+    2300014: 'Brazo Derecho Boton Interior '
+    2300016: Brazo Izquierdo
+    2300018: Cabeza
+    2300020: Cejas y Ojos
+    2300022: Esfera
+    2300024: Estrella Derecha Inferior Adelante
+    2300026: Estrella Derecha Inferior Atras
+    2300028: Estrella Derecha Medio Adelante
+    2300030: Estrella Derecha Medio Atras
+    2300032: Estrella Derecha Superior Adelante
+    2300034: Estrella Derecha Superior Atras
+    2300036: Estrella Izquierda Inferior Adelante
+    2300038: Estrella Izquierda Inferior Atras
+    2300040: Estrella Izquierda Medio Adelante
+    2300042: Estrella Izquierda Medio Atras
+    2300044: Estrella Izquierda Superior Adelante
+    2300046: Estrella Izquierda Superior Atras
+    2300048: Estrella Medio Inferior
+    2300050: Estrella Medio Medio
+    2300052: Estrella Medio Superior
+    2300054: Falda Costados
+    2300056: Hombro Derecho
+    2300058: Hombro Izquierdo
+    2300060: Mohawk
+    2300062: Pechera
+    2300064: Pico Inferior
+    2300066: Pico Superior
+    2300068: Pluma Azul Derecha
+    2300070: Pluma Azul Izquierda
+    2300072: Pluma Blanca Derecha
+    2300074: Pluma Blanca Izquierda
+    2300076: Pluma Roja Derecha
+    2300078: Pluma Roja Izquierda
+    2300080: Torso
+    3300000: Ala Derecha
+    3300002: Ala Izquierda
+    3300004: Armadura Auto
+    3300006: Boton Izquierdo Boton Externo
+    3300008: Boton Izquierdo Boton Interior
+    3300010: Brazo Derecho
+    3300012: Brazo Derecho Boton Externo
+    3300014: 'Brazo Derecho Boton Interior '
+    3300016: Brazo Izquierdo
+    3300018: Cabeza
+    3300020: Cejas y Ojos
+    3300022: Esfera
+    3300024: Estrella Derecha Inferior Adelante
+    3300026: Estrella Derecha Inferior Atras
+    3300028: Estrella Derecha Medio Adelante
+    3300030: Estrella Derecha Medio Atras
+    3300032: Estrella Derecha Superior Adelante
+    3300034: Estrella Derecha Superior Atras
+    3300036: Estrella Izquierda Inferior Adelante
+    3300038: Estrella Izquierda Inferior Atras
+    3300040: Estrella Izquierda Medio Adelante
+    3300042: Estrella Izquierda Medio Atras
+    3300044: Estrella Izquierda Superior Adelante
+    3300046: Estrella Izquierda Superior Atras
+    3300048: Estrella Medio Inferior
+    3300050: Estrella Medio Medio
+    3300052: Estrella Medio Superior
+    3300054: Falda Costados
+    3300056: Hombro Derecho
+    3300058: Hombro Izquierdo
+    3300060: Mohawk
+    3300062: Pechera
+    3300064: Pico Inferior
+    3300066: Pico Superior
+    3300068: Pluma Azul Derecha
+    3300070: Pluma Azul Izquierda
+    3300072: Pluma Blanca Derecha
+    3300074: Pluma Blanca Izquierda
+    3300076: Pluma Roja Derecha
+    3300078: Pluma Roja Izquierda
+    3300080: Torso
+    4300000: Esfera
+    4300002: Armadura Auto
+    4300004: Falda Costados
+    4300006: Torso
+    4300008: Pechera
+    4300010: Estrella Medio Superior
+    4300012: Estrella Medio Medio
+    4300014: Estrella Medio Inferior
+    4300016: Cabeza
+    4300018: Pico Superior
+    4300020: Pico Inferior
+    4300022: Cejas y Ojos
+    4300024: Mohawk
+    4300026: Hombro Izquierdo
+    4300028: Hombro Derecho
+    4300030: Ala Derecha
+    4300032: Pluma Roja Derecha
+    4300034: Brazo Derecho
+    4300036: Brazo Derecho Boton Externo
+    4300038: 'Brazo Derecho Boton Interior '
+    4300040: Estrella Derecha Inferior Atras
+    4300042: Estrella Derecha Medio Atras
+    4300044: Estrella Derecha Superior Atras
+    4300046: Estrella Derecha Inferior Adelante
+    4300048: Estrella Derecha Medio Adelante
+    4300050: Estrella Derecha Superior Adelante
+    4300052: Pluma Azul Derecha
+    4300054: Pluma Blanca Derecha
+    4300056: Estrella Izquierda Superior Atras
+    4300058: Estrella Izquierda Superior Adelante
+    4300060: Pluma Azul Izquierda
+    4300062: Pluma Blanca Izquierda
+    4300064: Estrella Izquierda Medio Adelante
+    4300066: Estrella Izquierda Medio Atras
+    4300068: Boton Izquierdo Boton Externo
+    4300070: Estrella Izquierda Inferior Atras
+    4300072: Pluma Roja Izquierda
+    4300074: Brazo Izquierdo
+    4300076: Ala Izquierda
+    4300078: Estrella Izquierda Inferior Adelante
+    4300080: Boton Izquierdo Boton Interior
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1565,6 +1565,8 @@ MonoBehaviour:
   PlayerId: 1
   LowerController: {fileID: 114286817483908436}
   UpperController: {fileID: 114941022983464320}
+  ExplosionPf: {fileID: 1651337599331264, guid: cf934469f9ccee54792a83bd1385a179,
+    type: 2}
   Weapons: {fileID: 0}
 --- !u!114 &114248448428136018
 MonoBehaviour:

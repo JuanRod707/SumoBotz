@@ -1,4 +1,5 @@
 ﻿using System.Linq;
+using Assets.Code.Game;
 
 namespace Code.Player
 {
@@ -12,10 +13,16 @@ namespace Code.Player
         public int PlayerId;
         public LowerPartMovement LowerController;
         public UpperPartMovement UpperController;
+        public GameObject ExplosionPf;
         [HideInInspector] public WeaponSystem Weapons;
 
+        private GameDirector director;
         private BotUIController uiController;
         private int currentHp;
+
+        public bool IsAlive {
+            get { return currentHp > 0; }
+        }
 
         public void Initialize(GameObject primary, GameObject secondary)
         {
@@ -30,6 +37,9 @@ namespace Code.Player
             uiController.Initialize(Stats, primary.GetComponent<PrimaryWeaponBase>().GetStats , secondary.GetComponent<SecondaryWeaponBase>().GetStats);
 
             uiController.UpdateHp(currentHp);
+
+            director = GameObject.Find("GameDirector").GetComponent<GameDirector>();
+            director.AddPlayer(this);
         }
         
         public void ReceiveDamage(int damage)
@@ -40,7 +50,9 @@ namespace Code.Player
             if (currentHp <= 0)
             {
                 currentHp = 0;
-                //EXPLODE
+                Instantiate(ExplosionPf, transform.position, Quaternion.identity);
+                director.OnPlayerKilled(this);
+                gameObject.SetActive(false);
             }
         }
     }

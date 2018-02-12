@@ -6,7 +6,57 @@ ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Brazo Derecho
+    100004: Brazo Derecho 1
+    100006: Brazo Izquierdo
+    100008: Brazo Izquierdo 1
+    100010: Cabeza
+    100012: Cara
+    100014: Casco
+    100016: Cinta
+    100018: Cintura
+    100020: Cinturon
+    100022: Cuello
+    100024: Cuernos
+    100026: Hombro Derecho
+    100028: Hombro Izq
+    100030: Hombro Izquierdo
+    100032: Hombros
+    100034: Nudo
+    100036: Nudo 2
+    100038: Ojos
+    100040: Orejeras
+    100042: Pechera
+    100044: Ropa
+    100046: Simbolo Casco
+    100048: Simbolos Hombro Der
+    100050: Simbolos Hombro Der001
     400000: //RootNode
+    400002: Brazo Derecho
+    400004: Brazo Derecho 1
+    400006: Brazo Izquierdo
+    400008: Brazo Izquierdo 1
+    400010: Cabeza
+    400012: Cara
+    400014: Casco
+    400016: Cinta
+    400018: Cintura
+    400020: Cinturon
+    400022: Cuello
+    400024: Cuernos
+    400026: Hombro Derecho
+    400028: Hombro Izq
+    400030: Hombro Izquierdo
+    400032: Hombros
+    400034: Nudo
+    400036: Nudo 2
+    400038: Ojos
+    400040: Orejeras
+    400042: Pechera
+    400044: Ropa
+    400046: Simbolo Casco
+    400048: Simbolos Hombro Der
+    400050: Simbolos Hombro Der001
     2100000: 07 - Default
     2100002: 08 - Default
     2100004: 01 - Default
@@ -16,10 +66,74 @@ ModelImporter:
     2100012: Terciario - Japon
     2100014: Sexto - Japon
     2100016: Cuarto - Japon
+    2100018: 09 - Default
+    2100020: 15 - Default
+    2100022: 14 - Default
+    2100024: 'Material #31'
+    2100026: 'Material #28'
+    2100028: 'Material #27'
+    2100030: No Name
     2300000: //RootNode
+    2300002: Brazo Derecho 1
+    2300004: Brazo Izquierdo 1
+    2300006: Cara
+    2300008: Casco
+    2300010: Cintura
+    2300012: Cinturon
+    2300014: Cuello
+    2300016: Cuernos
+    2300018: Hombro Izq
+    2300020: Hombros
+    2300022: Nudo
+    2300024: Nudo 2
+    2300026: Ojos
+    2300028: Orejeras
+    2300030: Pechera
+    2300032: Ropa
+    2300034: Simbolo Casco
+    2300036: Simbolos Hombro Der
+    2300038: Simbolos Hombro Der001
     3300000: //RootNode
+    3300002: Brazo Derecho 1
+    3300004: Brazo Izquierdo 1
+    3300006: Cara
+    3300008: Casco
+    3300010: Cintura
+    3300012: Cinturon
+    3300014: Cuello
+    3300016: Cuernos
+    3300018: Hombro Izq
+    3300020: Hombros
+    3300022: Nudo
+    3300024: Nudo 2
+    3300026: Ojos
+    3300028: Orejeras
+    3300030: Pechera
+    3300032: Ropa
+    3300034: Simbolo Casco
+    3300036: Simbolos Hombro Der
+    3300038: Simbolos Hombro Der001
     4300000: Japan
     4300002: Japan002
+    4300004: Cintura
+    4300006: Cuello
+    4300008: Casco
+    4300010: Cara
+    4300012: Orejeras
+    4300014: Simbolo Casco
+    4300016: Cuernos
+    4300018: Ojos
+    4300020: Pechera
+    4300022: Brazo Derecho
+    4300024: Hombros
+    4300026: Simbolos Hombro Der
+    4300028: Hombro Izq
+    4300030: Simbolos Hombro Der001
+    4300032: Brazo Izquierdo
+    4300034: Ropa
+    4300036: Nudo 2
+    4300038: Nudo
+    4300040: Cinturon
   externalObjects: {}
   materials:
     importMaterials: 1

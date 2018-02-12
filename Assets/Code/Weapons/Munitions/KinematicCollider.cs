@@ -1,33 +1,51 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using Code.Interfaces;
 using UnityEngine;
 
 public class KinematicCollider : MonoBehaviour
 {
     private GuidedKinematic projectile;
-    private PrimaryWeaponBase _primaryWeapon;
+    private PrimaryWeaponBase primaryWeapon;
 
     void Start()
     {
         projectile = this.GetComponent<GuidedKinematic>();
-        _primaryWeapon = this.GetComponentInParent<PrimaryWeaponBase>();
+        primaryWeapon = this.GetComponentInParent<PrimaryWeaponBase>();
     }
 
     private void OnCollisionEnter(Collision collision)
     {
         if (projectile != null && projectile.IsFlying)
         {
-            if (collision.rigidbody.tag.Equals("Player") || collision.rigidbody.tag.Equals("Physical"))
-            {
-                projectile.Explode();
-                Push(collision.rigidbody);
-            }
+            Push(collision.rigidbody);
+            DamageTarget(collision.rigidbody);
+            projectile.Explode();
         }
     }
 
     void Push(Rigidbody body)
     {
-        var pushVector = this.transform.forward;
-        body.AddForce(pushVector * _primaryWeapon.PushForce);
+        if (body.tag.Equals("Physical"))
+        {
+            var pushVector = this.transform.forward;
+            if (body != null)
+            {
+                body.AddForce(pushVector * primaryWeapon.PushForce);
+            }
+        }
+    }
+
+    void DamageTarget(Rigidbody body)
+    {
+        var dmgBody = body.GetComponent<IDamageable>();
+
+        if (dmgBody == null)
+        {
+            dmgBody = body.GetComponentInParent<IDamageable>();
+        }
+
+        if (dmgBody != null)
+        {
+            dmgBody.ReceiveDamage(primaryWeapon.GetStats.Damage);
+        }
     }
 }

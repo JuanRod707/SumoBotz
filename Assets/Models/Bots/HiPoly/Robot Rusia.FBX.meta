@@ -1,0 +1,225 @@
+fileFormatVersion: 2
+guid: 3e841fe2e8b251745a2c2850b3b00140
+timeCreated: 1518063369
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Bigote
+    100002: Buzo
+    100004: Caderas
+    100006: Cara
+    100008: Craneo
+    100010: Derecho Bicep
+    100012: Derecho Boton Detalle
+    100014: Derecho Brazo
+    100016: Derecho Codo Externo
+    100018: Derecho Codo Interno
+    100020: Derecho Conexion Brazo
+    100022: Derecho Hombro
+    100024: Derecho Hombro Detalle
+    100026: Detalle Chiva
+    100028: Esfera Base
+    100030: Estrella
+    100032: Izquierdo Bicep
+    100034: Izquierdo Boton Detalle
+    100036: Izquierdo Brazo
+    100038: Izquierdo Codo Externo
+    100040: Izquierdo Codo Intero
+    100042: Izquierdo Conexion Brazo
+    100044: 'Izquierdo Hombro '
+    100046: Izquierdo Hombro Detalle
+    100048: Orejas
+    100050: //RootNode
+    100052: Sombrero
+    100054: Torso
+    400000: Bigote
+    400002: Buzo
+    400004: Caderas
+    400006: Cara
+    400008: Craneo
+    400010: Derecho Bicep
+    400012: Derecho Boton Detalle
+    400014: Derecho Brazo
+    400016: Derecho Codo Externo
+    400018: Derecho Codo Interno
+    400020: Derecho Conexion Brazo
+    400022: Derecho Hombro
+    400024: Derecho Hombro Detalle
+    400026: Detalle Chiva
+    400028: Esfera Base
+    400030: Estrella
+    400032: Izquierdo Bicep
+    400034: Izquierdo Boton Detalle
+    400036: Izquierdo Brazo
+    400038: Izquierdo Codo Externo
+    400040: Izquierdo Codo Intero
+    400042: Izquierdo Conexion Brazo
+    400044: 'Izquierdo Hombro '
+    400046: Izquierdo Hombro Detalle
+    400048: Orejas
+    400050: //RootNode
+    400052: Sombrero
+    400054: Torso
+    2100000: No Name
+    2300000: Bigote
+    2300002: Buzo
+    2300004: Caderas
+    2300006: Cara
+    2300008: Craneo
+    2300010: Derecho Bicep
+    2300012: Derecho Boton Detalle
+    2300014: Derecho Brazo
+    2300016: Derecho Codo Externo
+    2300018: Derecho Codo Interno
+    2300020: Derecho Conexion Brazo
+    2300022: Derecho Hombro
+    2300024: Derecho Hombro Detalle
+    2300026: Detalle Chiva
+    2300028: Esfera Base
+    2300030: Estrella
+    2300032: Izquierdo Bicep
+    2300034: Izquierdo Boton Detalle
+    2300036: Izquierdo Brazo
+    2300038: Izquierdo Codo Externo
+    2300040: Izquierdo Codo Intero
+    2300042: Izquierdo Conexion Brazo
+    2300044: 'Izquierdo Hombro '
+    2300046: Izquierdo Hombro Detalle
+    2300048: Orejas
+    2300050: Sombrero
+    2300052: Torso
+    3300000: Bigote
+    3300002: Buzo
+    3300004: Caderas
+    3300006: Cara
+    3300008: Craneo
+    3300010: Derecho Bicep
+    3300012: Derecho Boton Detalle
+    3300014: Derecho Brazo
+    3300016: Derecho Codo Externo
+    3300018: Derecho Codo Interno
+    3300020: Derecho Conexion Brazo
+    3300022: Derecho Hombro
+    3300024: Derecho Hombro Detalle
+    3300026: Detalle Chiva
+    3300028: Esfera Base
+    3300030: Estrella
+    3300032: Izquierdo Bicep
+    3300034: Izquierdo Boton Detalle
+    3300036: Izquierdo Brazo
+    3300038: Izquierdo Codo Externo
+    3300040: Izquierdo Codo Intero
+    3300042: Izquierdo Conexion Brazo
+    3300044: 'Izquierdo Hombro '
+    3300046: Izquierdo Hombro Detalle
+    3300048: Orejas
+    3300050: Sombrero
+    3300052: Torso
+    4300000: Esfera Base
+    4300002: Caderas
+    4300004: Torso
+    4300006: Buzo
+    4300008: Sombrero
+    4300010: Estrella
+    4300012: Cara
+    4300014: Craneo
+    4300016: Orejas
+    4300018: Bigote
+    4300020: Izquierdo Hombro Detalle
+    4300022: Izquierdo Boton Detalle
+    4300024: 'Izquierdo Hombro '
+    4300026: Izquierdo Brazo
+    4300028: Izquierdo Bicep
+    4300030: Izquierdo Codo Externo
+    4300032: Izquierdo Codo Intero
+    4300034: Izquierdo Conexion Brazo
+    4300036: Derecho Conexion Brazo
+    4300038: Detalle Chiva
+    4300040: Derecho Boton Detalle
+    4300042: Derecho Hombro
+    4300044: Derecho Brazo
+    4300046: Derecho Codo Externo
+    4300048: Derecho Codo Interno
+    4300050: Derecho Hombro Detalle
+    4300052: Derecho Bicep
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
