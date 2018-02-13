@@ -1016,7 +1016,7 @@ Transform:
   m_GameObject: {fileID: 1694935075625116}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.1, y: 1.1, z: 1.1}
+  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
   m_Children:
   - {fileID: 4347742457519854}
   - {fileID: 4478542315607490}
@@ -2496,7 +2496,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Country: 3
   Stats:
-    MaxHealth: 20
+    MaxHealth: 100
     SpeedScore: 2400
     DashForce: 6000
     DashDuration: 0.2

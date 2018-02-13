@@ -482,9 +482,9 @@ MonoBehaviour:
   WeaponType: 1
   LaunchPosition: {fileID: 4698500684189408}
   Stats:
-    Damage: 20
+    Damage: 5
     PushForce: 50000
-    Cooldown: 10
+    Cooldown: 5
 --- !u!114 &114227547541936902
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -1,0 +1,196 @@
+fileFormatVersion: 2
+guid: f63ecb9ca89622b46acb37f050d6c005
+timeCreated: 1518485260
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Brazo Derecho
+    100002: Brazo Derecho Esfera
+    100004: Brazo Derecho Interno
+    100006: Brazo Izquierdo
+    100008: Brazo Izquierdo Esfera
+    100010: Brazo Izquierdo Interno
+    100012: Cabeza
+    100014: Collar
+    100016: Cuello
+    100018: Cuerda Sombrero
+    100020: Cylinder001
+    100022: Cylinder003
+    100024: Cylinder004
+    100026: Decoracion Falda
+    100028: Decoracion Pecho
+    100030: Falda
+    100032: Hombro Derecho
+    100034: Hombro Izquierdo
+    100036: Ojo
+    100038: //RootNode
+    100040: Robot Ingles
+    100042: Sombrero
+    400000: Brazo Derecho
+    400002: Brazo Derecho Esfera
+    400004: Brazo Derecho Interno
+    400006: Brazo Izquierdo
+    400008: Brazo Izquierdo Esfera
+    400010: Brazo Izquierdo Interno
+    400012: Cabeza
+    400014: Collar
+    400016: Cuello
+    400018: Cuerda Sombrero
+    400020: Cylinder001
+    400022: Cylinder003
+    400024: Cylinder004
+    400026: Decoracion Falda
+    400028: Decoracion Pecho
+    400030: Falda
+    400032: Hombro Derecho
+    400034: Hombro Izquierdo
+    400036: Ojo
+    400038: //RootNode
+    400040: Robot Ingles
+    400042: Sombrero
+    2100000: 09 - Default
+    2100002: 08 - Default
+    2100004: 13 - Default
+    2100006: 07 - Default
+    2100008: No Name
+    2300000: Brazo Derecho
+    2300002: Brazo Derecho Esfera
+    2300004: Brazo Derecho Interno
+    2300006: Brazo Izquierdo
+    2300008: Brazo Izquierdo Esfera
+    2300010: Brazo Izquierdo Interno
+    2300012: Cabeza
+    2300014: Collar
+    2300016: Cuello
+    2300018: Cuerda Sombrero
+    2300020: Cylinder001
+    2300022: Cylinder003
+    2300024: Cylinder004
+    2300026: Decoracion Falda
+    2300028: Decoracion Pecho
+    2300030: Falda
+    2300032: Hombro Derecho
+    2300034: Hombro Izquierdo
+    2300036: Ojo
+    2300038: Sombrero
+    3300000: Brazo Derecho
+    3300002: Brazo Derecho Esfera
+    3300004: Brazo Derecho Interno
+    3300006: Brazo Izquierdo
+    3300008: Brazo Izquierdo Esfera
+    3300010: Brazo Izquierdo Interno
+    3300012: Cabeza
+    3300014: Collar
+    3300016: Cuello
+    3300018: Cuerda Sombrero
+    3300020: Cylinder001
+    3300022: Cylinder003
+    3300024: Cylinder004
+    3300026: Decoracion Falda
+    3300028: Decoracion Pecho
+    3300030: Falda
+    3300032: Hombro Derecho
+    3300034: Hombro Izquierdo
+    3300036: Ojo
+    3300038: Sombrero
+    4300000: Decoracion Falda
+    4300002: Ojo
+    4300004: Cuerda Sombrero
+    4300006: Cylinder001
+    4300008: Cuello
+    4300010: Collar
+    4300012: Hombro Izquierdo
+    4300014: Brazo Izquierdo
+    4300016: Brazo Izquierdo Esfera
+    4300018: Brazo Izquierdo Interno
+    4300020: Decoracion Pecho
+    4300022: Hombro Derecho
+    4300024: Brazo Derecho
+    4300026: Brazo Derecho Interno
+    4300028: Brazo Derecho Esfera
+    4300030: Cabeza
+    4300032: Sombrero
+    4300034: Falda
+    4300036: Cylinder003
+    4300038: Cylinder004
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
