@@ -1,6 +1,6 @@
 ﻿public enum Nationality
 {
-    Uruguay,
+    England,
     Usa,
     Japan,
     Rusia

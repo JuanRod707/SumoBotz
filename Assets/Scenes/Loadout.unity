@@ -1116,7 +1116,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Uruguay
+  m_Text: England
 --- !u!222 &57035710
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12368,7 +12368,7 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: Uruguay
+    - m_Text: England
       m_Image: {fileID: 0}
     - m_Text: USA
       m_Image: {fileID: 0}
@@ -14895,7 +14895,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Uruguay
+  m_Text: England
 --- !u!222 &690202872
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17655,7 +17655,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Uruguay
+  m_Text: England
 --- !u!222 &852811096
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19833,7 +19833,7 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: Uruguay
+    - m_Text: England
       m_Image: {fileID: 0}
     - m_Text: USA
       m_Image: {fileID: 0}
@@ -29748,7 +29748,7 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: Uruguay
+    - m_Text: England
       m_Image: {fileID: 0}
     - m_Text: USA
       m_Image: {fileID: 0}
@@ -31325,7 +31325,7 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: Uruguay
+    - m_Text: England
       m_Image: {fileID: 0}
     - m_Text: USA
       m_Image: {fileID: 0}
@@ -33895,7 +33895,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BotsPfs:
-  - {fileID: 1529557824848888, guid: a016cac56c71af742ac64d208f65667c, type: 2}
+  - {fileID: 1401020331206786, guid: 38c451675a0423140b5860fbc6258e0f, type: 2}
   - {fileID: 1325639707006248, guid: cd2088de81fb7a44bb53fc7890bf122f, type: 2}
   - {fileID: 1361217488994008, guid: a33500889a6d2e549b9444761d2b7e31, type: 2}
   - {fileID: 1908957959510860, guid: 8d9710046eba1f3448f663aeaf86edea, type: 2}
@@ -33908,6 +33908,7 @@ MonoBehaviour:
   - {fileID: 1850573089391350, guid: b4beae7893c8d2e4e86f6ee7de7db89a, type: 2}
   - {fileID: 1120700452907152, guid: a553477db9c2f7448b87ef871352ba4c, type: 2}
   - {fileID: 1163747534447912, guid: 472feb8673ce8ed41a7c08d01c5199e0, type: 2}
+  Faces: []
 --- !u!4 &1630180299
 Transform:
   m_ObjectHideFlags: 0
@@ -41715,7 +41716,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Uruguay
+  m_Text: England
 --- !u!222 &2056336317
 CanvasRenderer:
   m_ObjectHideFlags: 0

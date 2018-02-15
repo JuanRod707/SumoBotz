@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Code.Player;
+using UnityEngine;
 
 public class RocketLauncher : PrimaryWeaponBase
 {
@@ -20,6 +21,7 @@ public class RocketLauncher : PrimaryWeaponBase
     {
         rocket = this.GetComponentInChildren<GuidedKinematic>();
         ResetRocket();
+        uiController = GetComponentInParent<BotUIController>();
     }
 
     void FixedUpdate()
@@ -40,6 +42,7 @@ public class RocketLauncher : PrimaryWeaponBase
         {
             cooldownElapsed = Stats.Cooldown;
             rocket.Launch();
+            uiController.ResetPrimaryCooldown();
         }
     }
 

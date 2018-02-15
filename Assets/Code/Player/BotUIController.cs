@@ -1,11 +1,12 @@
-﻿namespace  Code.Player
+﻿using System.Linq;
+
+namespace  Code.Player
 {
     using Assets.Code.UI;
     using UnityEngine;
 
     public class BotUIController : MonoBehaviour
     {
-        public GameObject PlayerHudPf;
         public string HudContainer;
 
         private PlayerHud playerHud;
@@ -13,14 +14,15 @@
         private PrimaryWeaponStats primaryStats;
         private SecondaryWeaponStats secondaryStats;
 
-        public void Initialize(BotData data, PrimaryWeaponStats primary, SecondaryWeaponStats secondary)
+        public void Initialize(BotData data, PrimaryWeaponStats primary, SecondaryWeaponStats secondary, int playerId, Sprite face)
         {
             botStats = data;
             primaryStats = primary;
             secondaryStats = secondary;
 
-            var hud = Instantiate(PlayerHudPf, GameObject.Find(HudContainer).transform);
-            playerHud = hud.GetComponent<PlayerHud>();
+            var huds = GameObject.Find("PlayerStats").GetComponent<PlayerHudManager>();
+            playerHud = huds.GetPlayerHud(playerId);
+            playerHud.LoadFace(face);
         }
 
         public void UpdateHp(int currentHp)

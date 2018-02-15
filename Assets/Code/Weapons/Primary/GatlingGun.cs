@@ -13,7 +13,6 @@ public class GatlingGun : PrimaryWeaponBase
     private float fireElapsed;
     private AudioSource GunClip;
     private float rofElapsed;
-    private BotUIController uiController;
 
     public override float PushForce
     {

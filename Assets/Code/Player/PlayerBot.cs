@@ -33,8 +33,9 @@ namespace Code.Player
             Weapons.LoadPrimary(primary);
             Weapons.LoadSecondary(secondary);
 
+            var face = GameObject.Find("PlayerLoader").GetComponent<PlayerResources>().GetFace(Country);
             uiController = GetComponent<BotUIController>();
-            uiController.Initialize(Stats, primary.GetComponent<PrimaryWeaponBase>().GetStats , secondary.GetComponent<SecondaryWeaponBase>().GetStats);
+            uiController.Initialize(Stats, primary.GetComponent<PrimaryWeaponBase>().GetStats , secondary.GetComponent<SecondaryWeaponBase>().GetStats, PlayerId, face);
 
             uiController.UpdateHp(currentHp);
 

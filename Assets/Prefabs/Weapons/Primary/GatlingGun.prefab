@@ -500,7 +500,7 @@ MonoBehaviour:
   BarrelRotator: {fileID: 114538079331363376}
   Muzzle: {fileID: 198765906956576290}
   Stats:
-    Damage: 1
+    Damage: 4
     PushForce: 15000
     Cooldown: 3
     RateOfFire: 0.15

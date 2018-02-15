@@ -34,9 +34,8 @@ public class PlayerLoader :MonoBehaviour
         foreach (var ldt in DefaultLoadouts)
         {
             var bot = Instantiate(resources.GetBot(ldt.Country), SpawnPoints[playerIndex].position, Quaternion.identity).GetComponent<PlayerBot>();
-            bot.Initialize(resources.GetPrimary(ldt.PrimaryWeapon), resources.GetSecondary(ldt.SecondaryWeapon));
             bot.PlayerId = playerIndex + 1;
-
+            bot.Initialize(resources.GetPrimary(ldt.PrimaryWeapon), resources.GetSecondary(ldt.SecondaryWeapon));
             playerIndex++;
         }
     }
@@ -50,8 +49,8 @@ public class PlayerLoader :MonoBehaviour
             {
                 var bot = Instantiate(resources.GetBot(ldt.Country), SpawnPoints[playerIndex].position,
                     Quaternion.identity).GetComponent<PlayerBot>();
-                bot.Initialize(resources.GetPrimary(ldt.PrimaryWeapon), resources.GetSecondary(ldt.SecondaryWeapon));
                 bot.PlayerId = playerIndex + 1;
+                bot.Initialize(resources.GetPrimary(ldt.PrimaryWeapon), resources.GetSecondary(ldt.SecondaryWeapon));
             }
 
             playerIndex++;

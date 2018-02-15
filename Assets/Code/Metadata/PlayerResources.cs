@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using Assets.Code.Metadata;
 using Code.Player;
 using UnityEngine;
 
@@ -8,6 +9,12 @@ public class PlayerResources : MonoBehaviour
     public GameObject[] BotsPfs;
     public GameObject[] PrimariesPfs;
     public GameObject[] SecondariesPfs;
+    public CountryFacePair[] Faces;
+
+    public Sprite GetFace(Nationality country)
+    {
+        return Faces.First(x => x.Country == country).FaceSprite;
+    }
 
     public GameObject GetBot(Nationality country)
     {

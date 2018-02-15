@@ -3,19 +3,24 @@ using UnityEngine.UI;
 
 namespace Assets.Code.UI
 {
-    class PlayerHud : MonoBehaviour
+    public class PlayerHud : MonoBehaviour
     {
-        public Image[] Lives;
         public Image HpBar;
         public Image DashBar;
         public Image PrimaryIcon;
         public Image SecondaryIcon;
-        public Image UltimateIcon;
+        public Image RobotFace;
+        public int PlayerId;
 
         private float primaryRecovery;
         private float secondaryRecovery;
         private float dashRecovery;
 
+        public void LoadFace(Sprite face)
+        {
+           gameObject.SetActive(true);
+            RobotFace.sprite = face;
+        }
 
         public void UpdateHp(float hp)
         {
