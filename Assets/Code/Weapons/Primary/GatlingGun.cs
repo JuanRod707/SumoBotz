@@ -6,13 +6,9 @@ public class GatlingGun : PrimaryWeaponBase
 {
     public Rotator BarrelRotator;
     public ParticleSystem Muzzle;
-    public GatlingStats Stats;
+    public GatlingStats GGStats;
     public GameObject ShotHitPf;
     public GameObject ShotLinePf;
-
-    private float fireElapsed;
-    private AudioSource GunClip;
-    private float rofElapsed;
 
     public override float PushForce
     {
@@ -24,64 +20,28 @@ public class GatlingGun : PrimaryWeaponBase
         get { return Stats; }
     }
 
-    void Start()
-    {
-        GunClip = this.GetComponent<AudioSource>();
-        uiController = GetComponentInParent<BotUIController>();
-    }
-
-    void FixedUpdate()
-    {
-        if (fireElapsed > 0)
-        {
-            Shoot();
-            rofElapsed -= Time.fixedDeltaTime;
-            fireElapsed -= Time.fixedDeltaTime;
-        }
-        else if (cooldownElapsed > 0)
-        {
-            cooldownElapsed -= Time.fixedDeltaTime;
-        }
-    }
-
-    void Shoot()
-    {
-        if (rofElapsed <= 0)
-        {
-            Muzzle.Emit(1);
-            rofElapsed = Stats.RateOfFire;
-            BarrelRotator.StartRotating();
-            GunClip.Play();
-
-            RaycastHit hit;
-            var dir = this.transform.forward * 10;
-            dir.x += Random.Range(-Stats.Inaccuracy, Stats.Inaccuracy);
-            dir.y += Random.Range(-Stats.Inaccuracy, Stats.Inaccuracy);
-            dir.z += Random.Range(-Stats.Inaccuracy, Stats.Inaccuracy);
-
-            var ray = new Ray(Muzzle.transform.position, dir);
-            if (Physics.Raycast(ray, out hit, Stats.Range))
-            {
-                DisplayGunshot(hit.point);
-                Instantiate(ShotHitPf, hit.point, Quaternion.identity);
-                DamageTarget(hit);
-                Push(hit);
-            }
-            else
-            {
-                DisplayGunshot(ray.GetPoint(Stats.Range));
-            }
-
-            uiController.ResetPrimaryCooldown();
-        }
-    }
-
     public override void Fire()
     {
-        if (cooldownElapsed <= 0)
+        Muzzle.Emit(1);
+        BarrelRotator.StartRotating();
+
+        RaycastHit hit;
+        var dir = this.transform.forward * 10;
+        dir.x += Random.Range(-GGStats.Inaccuracy, GGStats.Inaccuracy);
+        dir.y += Random.Range(-GGStats.Inaccuracy, GGStats.Inaccuracy);
+        dir.z += Random.Range(-GGStats.Inaccuracy, GGStats.Inaccuracy);
+
+        var ray = new Ray(Muzzle.transform.position, dir);
+        if (Physics.Raycast(ray, out hit, GGStats.Range))
         {
-            fireElapsed = Stats.BurstDuration;
-            cooldownElapsed = Stats.Cooldown;
+            DisplayGunshot(hit.point);
+            Instantiate(ShotHitPf, hit.point, Quaternion.identity);
+            DamageTarget(hit);
+            Push(hit);
+        }
+        else
+        {
+            DisplayGunshot(ray.GetPoint(GGStats.Range));
         }
     }
 

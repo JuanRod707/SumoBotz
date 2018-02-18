@@ -54,7 +54,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4752259937190538}
   m_Layer: 0
-  m_Name: RightSlot
+  m_Name: MeleeSlot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -69,7 +69,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4661534004949418}
   m_Layer: 0
-  m_Name: LeftSlot
+  m_Name: PrimarySlot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -303,21 +303,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!1 &1581778857323128
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4116782718696546}
-  m_Layer: 0
-  m_Name: PrimaryWeapon
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &1589447673190422
 GameObject:
   m_ObjectHideFlags: 1
@@ -344,7 +329,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4960520701738236}
   m_Layer: 0
-  m_Name: SecondaryWeapon
+  m_Name: SecondarySlot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -650,21 +635,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4116782718696546
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1581778857323128}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 4752259937190538}
-  - {fileID: 4661534004949418}
-  m_Father: {fileID: 4129207414965514}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4129207414965514
 Transform:
   m_ObjectHideFlags: 1
@@ -675,7 +645,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 4116782718696546}
+  - {fileID: 4661534004949418}
+  - {fileID: 4752259937190538}
   - {fileID: 4960520701738236}
   m_Father: {fileID: 4135305468517188}
   m_RootOrder: 1
@@ -934,8 +905,8 @@ Transform:
   m_LocalPosition: {x: -0.4, y: -0.13, z: -0.01}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 4116782718696546}
-  m_RootOrder: 1
+  m_Father: {fileID: 4129207414965514}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4723951021385030
 Transform:
@@ -973,8 +944,8 @@ Transform:
   m_LocalPosition: {x: 0.4, y: -0.13, z: -0.01}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 4116782718696546}
-  m_RootOrder: 0
+  m_Father: {fileID: 4129207414965514}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4804106392417668
 Transform:
@@ -1079,7 +1050,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4129207414965514}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &23037747280961220
 MeshRenderer:
@@ -2035,13 +2006,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0e2a75bcc0f47668f449094f965943b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PrimaryWeapon: []
-  SecondaryWeapon: []
-  PrimaryWeaponSpots:
-  - {fileID: 4752259937190538}
-  - {fileID: 4661534004949418}
-  SecondaryWeaponSpots:
-  - {fileID: 4960520701738236}
+  PrimaryWeapon: {fileID: 0}
+  SecondaryWeapon: {fileID: 0}
+  PrimaryWeaponSpot: {fileID: 4661534004949418}
+  MeleeWeaponSpot: {fileID: 4752259937190538}
+  SecondaryWeaponSpot: {fileID: 4960520701738236}
 --- !u!114 &114581645119853434
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -38,7 +38,7 @@ namespace  Code.Player
 
         public void ResetPrimaryCooldown()
         {
-            playerHud.ResetPrimaryCooldown(primaryStats.Cooldown);
+            playerHud.ResetPrimaryCooldown(primaryStats.ReloadTime);
         }
 
         public void ResetSecondaryCooldown()

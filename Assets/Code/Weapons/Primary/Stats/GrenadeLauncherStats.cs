@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [Serializable]
-public class MineLauncherStats : PrimaryWeaponStats
+public class GrenadeLauncherStats
 {
     public float Accuracy;
     public float MinRange;

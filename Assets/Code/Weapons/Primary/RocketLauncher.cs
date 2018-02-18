@@ -4,8 +4,7 @@ using UnityEngine;
 public class RocketLauncher : PrimaryWeaponBase
 {
     public Transform LaunchPosition;
-    public PrimaryWeaponStats Stats;
-    private GuidedKinematic rocket;
+    public GameObject RocketPf;
 
     public override float PushForce
     {
@@ -17,40 +16,10 @@ public class RocketLauncher : PrimaryWeaponBase
         get { return Stats; }
     }
 
-    void Start()
-    {
-        rocket = this.GetComponentInChildren<GuidedKinematic>();
-        ResetRocket();
-        uiController = GetComponentInParent<BotUIController>();
-    }
-
-    void FixedUpdate()
-    {
-        if (cooldownElapsed > 0)
-        {
-            cooldownElapsed -= Time.fixedDeltaTime;
-            if (cooldownElapsed <= 0)
-            {
-                ResetRocket();
-            }
-        }
-    }
-
     public override void Fire()
     {
-        if (cooldownElapsed <= 0)
-        {
-            cooldownElapsed = Stats.Cooldown;
-            rocket.Launch();
-            uiController.ResetPrimaryCooldown();
-        }
-    }
-
-    void ResetRocket()
-    {
-        rocket.gameObject.SetActive(true);
-        rocket.transform.SetParent(this.transform);
-        rocket.transform.position = LaunchPosition.position;
-        rocket.transform.localEulerAngles = Vector3.zero;
+        var rocket = Instantiate(RocketPf, LaunchPosition.position, transform.rotation).GetComponent<GuidedKinematic>();
+        rocket.Launch();
+        rocket.GetComponent<KinematicCollider>().LoadStats(Stats.PushForce, Stats.Damage);
     }
 }

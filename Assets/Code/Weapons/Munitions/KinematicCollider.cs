@@ -4,12 +4,14 @@ using UnityEngine;
 public class KinematicCollider : MonoBehaviour
 {
     private GuidedKinematic projectile;
-    private PrimaryWeaponBase primaryWeapon;
+    private int damage;
+    private float pushForce;
 
-    void Start()
+    public void LoadStats(float pushforce, int damage)
     {
+        this.damage = damage;
+        this.pushForce = pushforce;
         projectile = this.GetComponent<GuidedKinematic>();
-        primaryWeapon = this.GetComponentInParent<PrimaryWeaponBase>();
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -29,7 +31,7 @@ public class KinematicCollider : MonoBehaviour
             var pushVector = this.transform.forward;
             if (body != null)
             {
-                body.AddForce(pushVector * primaryWeapon.PushForce);
+                body.AddForce(pushVector * pushForce);
             }
         }
     }
@@ -45,7 +47,7 @@ public class KinematicCollider : MonoBehaviour
 
         if (dmgBody != null)
         {
-            dmgBody.ReceiveDamage(primaryWeapon.GetStats.Damage);
+            dmgBody.ReceiveDamage(damage);
         }
     }
 }

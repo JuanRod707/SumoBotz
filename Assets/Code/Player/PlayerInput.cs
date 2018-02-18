@@ -57,22 +57,14 @@ public class PlayerInput : MonoBehaviour
                 UpperMover.Move();
             }
 
-            if (Input.GetButtonDown(PrimaryFire))
+            if (Input.GetButton(PrimaryFire))
             {
-                foreach (var w in bot.Weapons.PrimaryWeapon)
-                {
-                        w.Fire();
-                }
-                
+                bot.Weapons.PrimaryWeapon.OnFire();
             }
 
             if (Input.GetButtonDown(SecondaryFire))
             {
-                foreach (var w in bot.Weapons.SecondaryWeapon)
-                {
-                    w.Fire();
-                }
-
+                bot.Weapons.SecondaryWeapon.Fire();
             }
 
             var tAxis = Input.GetAxis(Triggers);

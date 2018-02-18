@@ -4,10 +4,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [Serializable]
-public class GatlingStats : PrimaryWeaponStats
+public class GatlingStats
 {
-    public float RateOfFire;
-    public float BurstDuration;
     public float Accuracy;
     public float Range;
 
