@@ -6,6 +6,7 @@ using UnityEngine;
 public class WeaponSystem : MonoBehaviour
 {
     [HideInInspector] public PrimaryWeaponBase PrimaryWeapon;
+    [HideInInspector] public MeleeWeaponBase MeleeWeapon;
     [HideInInspector] public SecondaryWeaponBase SecondaryWeapon;
 
     public Transform PrimaryWeaponSpot;
@@ -24,5 +25,12 @@ public class WeaponSystem : MonoBehaviour
         var weap = Instantiate(weapon, SecondaryWeaponSpot);
         weap.transform.localPosition = Vector3.zero;
         SecondaryWeapon = weap.GetComponent<SecondaryWeaponBase>();
+    }
+
+    public void LoadMelee(GameObject weapon)
+    {
+        var weap = Instantiate(weapon, MeleeWeaponSpot);
+        weap.transform.localPosition = Vector3.zero;
+        MeleeWeapon = weap.GetComponent<MeleeWeaponBase>();
     }
 }

@@ -73,6 +73,11 @@ public class PlayerInput : MonoBehaviour
             {
                 lowerMover.DashForward();
             }
+
+            if (tAxis >= 0.9f)
+            {
+                bot.Weapons.MeleeWeapon.OnFire();
+            }
         }
         else
         {

@@ -1,5 +1,4 @@
-﻿using System.Linq;
-using Assets.Code.Game;
+﻿using Assets.Code.Game;
 
 namespace Code.Player
 {
@@ -14,6 +13,7 @@ namespace Code.Player
         public LowerPartMovement LowerController;
         public UpperPartMovement UpperController;
         public GameObject ExplosionPf;
+        public SpriteRenderer PlayerRing;
         [HideInInspector] public WeaponSystem Weapons;
 
         private GameDirector director;
@@ -24,7 +24,7 @@ namespace Code.Player
             get { return currentHp > 0; }
         }
 
-        public void Initialize(GameObject primary, GameObject secondary)
+        public void Initialize(GameObject primary, GameObject melee, GameObject secondary)
         {
             LowerController.LoadStats(Stats);
             currentHp = Stats.MaxHealth;
@@ -32,8 +32,10 @@ namespace Code.Player
             Weapons = this.GetComponentInChildren<WeaponSystem>();
             Weapons.LoadPrimary(primary);
             Weapons.LoadSecondary(secondary);
+            Weapons.LoadMelee(melee);
 
-            var face = GameObject.Find("PlayerLoader").GetComponent<PlayerResources>().GetFace(Country);
+            var res = GameObject.Find("PlayerLoader").GetComponent<PlayerResources>();
+            var face = res.GetFace(Country);
             uiController = GetComponent<BotUIController>();
             uiController.Initialize(Stats, primary.GetComponent<PrimaryWeaponBase>().GetStats , secondary.GetComponent<SecondaryWeaponBase>().GetStats, PlayerId, face);
 
@@ -41,6 +43,8 @@ namespace Code.Player
 
             director = GameObject.Find("GameDirector").GetComponent<GameDirector>();
             director.AddPlayer(this);
+
+            PlayerRing.color = res.GetColor(PlayerId);
         }
         
         public void ReceiveDamage(int damage)
