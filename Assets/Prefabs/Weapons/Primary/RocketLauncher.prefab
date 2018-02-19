@@ -166,4 +166,4 @@ MonoBehaviour:
     ReloadTime: 5
     RateOfFire: 1
   LaunchPosition: {fileID: 4698500684189408}
-  RocketPf: {fileID: 100000, guid: 0ab3cc193bda86648872cd19551951ba, type: 3}
+  RocketPf: {fileID: 1558870428797568, guid: 2a2600c6175083f41b61702acdcebbf3, type: 2}

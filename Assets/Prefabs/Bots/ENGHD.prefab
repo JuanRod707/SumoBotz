@@ -2043,7 +2043,7 @@ MonoBehaviour:
     DashForce: 6000
     DashDuration: 0.2
     TopSpeed: 3
-    DashCooldown: 3
+    DashCooldown: 2
   PlayerId: 2
   LowerController: {fileID: 114806630463214400}
   UpperController: {fileID: 114958780431572082}

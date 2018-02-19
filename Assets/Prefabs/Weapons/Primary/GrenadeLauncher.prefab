@@ -1974,14 +1974,14 @@ MonoBehaviour:
     Damage: 20
     AmmoCap: 6
     PushForce: 5000
-    ReloadTime: 3
-    RateOfFire: 0.6
+    ReloadTime: 4
+    RateOfFire: 0.8
   ShootingPosition: {fileID: 4837845173032282}
   Muzzle: {fileID: 198529375614825238}
   GLStats:
-    Accuracy: 0.01
-    MinRange: 3
-    MaxRange: 5
+    Accuracy: 80
+    MinRange: 350
+    MaxRange: 400
   Grenade: {fileID: 1672343222322012, guid: 1a275b52e6509f542a0f9e455760656e, type: 2}
 --- !u!198 &198529375614825238
 ParticleSystem:

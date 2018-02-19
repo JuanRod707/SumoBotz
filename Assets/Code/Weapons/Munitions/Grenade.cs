@@ -11,6 +11,7 @@ public class Grenade : MonoBehaviour
 
     public void Launch(Vector3 direction, float launchForce, int damage)
     {
+        this.damage = damage;
         var body = GetComponent<Rigidbody>();
         body.AddForce(direction * launchForce);
         body.AddTorque(Random.insideUnitSphere * RotationFactor);
@@ -28,6 +29,10 @@ public class Grenade : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         var damageable = collision.other.GetComponent<IDamageable>();
+        if (damageable == null)
+        {
+            damageable = collision.other.GetComponentInParent<IDamageable>();
+        }
 
         if (damageable != null)
         {
@@ -39,6 +44,6 @@ public class Grenade : MonoBehaviour
     void Explode()
     {
         Instantiate(ExplosionPf, this.transform.position, Quaternion.identity);
-        Destroy(GetComponentInParent<Mine>().gameObject);
+        Destroy(gameObject);
     }
 }

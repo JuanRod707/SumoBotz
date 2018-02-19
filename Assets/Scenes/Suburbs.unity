@@ -1779,7 +1779,6 @@ MonoBehaviour:
   - {fileID: 1270907995448036, guid: 58528d5b5936d3143ab7cb6a7f6fe06c, type: 2}
   SecondariesPfs:
   - {fileID: 1537689719048164, guid: 5839096eeeda58e488e6536cf29f297a, type: 2}
-  - {fileID: 1512683278139658, guid: b65ae8ce5020fc941835adf6fb4e9088, type: 2}
   - {fileID: 1024689041796290, guid: a6efb1d89f5fa254fad7bf818eb44a52, type: 2}
   - {fileID: 1792153487255822, guid: 25cdc547d838d0c469523e238d83ce50, type: 2}
   Faces:
@@ -1804,14 +1803,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DefaultLoadouts:
   - Country: 0
-    PrimaryWeapon: 1
+    PrimaryWeapon: 0
     SecondaryWeapon: 1
   - Country: 1
     PrimaryWeapon: 0
     SecondaryWeapon: 2
-  - Country: 3
-    PrimaryWeapon: 1
-    SecondaryWeapon: 3
   SpawnPoints:
   - {fileID: 1617576899}
   - {fileID: 1929173041}
@@ -2002,12 +1998,12 @@ Prefab:
     - target: {fileID: 224634512617913934, guid: 171703b4ed81eb34eb65230cab57c570,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 500
+      value: 350
       objectReference: {fileID: 0}
     - target: {fileID: 224634512617913934, guid: 171703b4ed81eb34eb65230cab57c570,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 250
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 224634512617913934, guid: 171703b4ed81eb34eb65230cab57c570,
         type: 2}
@@ -2111,12 +2107,12 @@ Prefab:
     - target: {fileID: 224634512617913934, guid: 171703b4ed81eb34eb65230cab57c570,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 500
+      value: 350
       objectReference: {fileID: 0}
     - target: {fileID: 224634512617913934, guid: 171703b4ed81eb34eb65230cab57c570,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 250
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 224634512617913934, guid: 171703b4ed81eb34eb65230cab57c570,
         type: 2}
@@ -2499,12 +2495,12 @@ Prefab:
     - target: {fileID: 224634512617913934, guid: 171703b4ed81eb34eb65230cab57c570,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 500
+      value: 350
       objectReference: {fileID: 0}
     - target: {fileID: 224634512617913934, guid: 171703b4ed81eb34eb65230cab57c570,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 250
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 224634512617913934, guid: 171703b4ed81eb34eb65230cab57c570,
         type: 2}
@@ -3102,12 +3098,12 @@ Prefab:
     - target: {fileID: 224634512617913934, guid: 171703b4ed81eb34eb65230cab57c570,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 500
+      value: 350
       objectReference: {fileID: 0}
     - target: {fileID: 224634512617913934, guid: 171703b4ed81eb34eb65230cab57c570,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 250
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 224634512617913934, guid: 171703b4ed81eb34eb65230cab57c570,
         type: 2}

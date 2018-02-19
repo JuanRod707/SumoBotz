@@ -507,7 +507,7 @@ MonoBehaviour:
   Muzzle: {fileID: 198765906956576290}
   GGStats:
     Accuracy: 87
-    Range: 8
+    Range: 10
   ShotHitPf: {fileID: 1365811965351650, guid: b898e125aa32a1242bbd1db2baaf8704, type: 2}
   ShotLinePf: {fileID: 1949691622663962, guid: 9da52275478a51d4f80813c4e6178261, type: 2}
 --- !u!198 &198765906956576290

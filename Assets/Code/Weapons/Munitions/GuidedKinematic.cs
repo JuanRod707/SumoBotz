@@ -25,11 +25,6 @@ public class GuidedKinematic : MonoBehaviour
         get { return isFlying; }
     }
 
-    void Start()
-    {
-        effects = this.GetComponentsInChildren<ParticleSystem>();
-    }
-
     private void FixedUpdate()
     {
         if (isFlying)
@@ -94,6 +89,7 @@ public class GuidedKinematic : MonoBehaviour
 
     public void Launch()
     {
+        effects = this.GetComponentsInChildren<ParticleSystem>();
         this.transform.SetParent(null);
         currentLifespan = Lifespan;
         isFlying = true;

@@ -2,5 +2,5 @@
 {
     GatlingGun,
     RocketLauncher,
-    MineLauncher
+    GrenadeLauncher
 }
