@@ -1059,7 +1059,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c9c6572cea446fd84f8eef3ce6ed9c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WeaponType: 1
+  WeaponType: 0
   Effects:
   - {fileID: 198804528918960936}
   - {fileID: 198298865900142258}

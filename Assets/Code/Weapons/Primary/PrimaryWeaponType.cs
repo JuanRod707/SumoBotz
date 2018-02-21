@@ -2,5 +2,6 @@
 {
     GatlingGun,
     RocketLauncher,
-    GrenadeLauncher
+    GrenadeLauncher,
+    Railgun
 }

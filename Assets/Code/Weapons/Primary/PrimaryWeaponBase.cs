@@ -26,6 +26,7 @@ public abstract class PrimaryWeaponBase : MonoBehaviour
     {
         canFire = true;
         ammoInClip = Stats.AmmoCap;
+        transform.localScale = Vector3.one;
     }
 
     public void OnFire()
