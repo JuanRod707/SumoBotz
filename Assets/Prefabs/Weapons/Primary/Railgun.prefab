@@ -628,7 +628,7 @@ MonoBehaviour:
   Muzzle: {fileID: 198045989400250490}
   RGStats:
     Range: 50
-  ShotHitPf: {fileID: 1365811965351650, guid: b898e125aa32a1242bbd1db2baaf8704, type: 2}
+  ShotHitPf: {fileID: 1270190950390768, guid: e2b5818cf59adcd4b87c76d6edd2cec5, type: 2}
   ShotLinePf: {fileID: 1385145494754302, guid: 1b8ca625bf80ef5448312737cf61a6b1, type: 2}
 --- !u!198 &198045989400250490
 ParticleSystem:

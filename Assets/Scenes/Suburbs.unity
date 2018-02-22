@@ -3168,12 +3168,13 @@ MonoBehaviour:
   - {fileID: 1156098614887310, guid: ad55a5e18e7933b498ed304f1d691f6d, type: 2}
   - {fileID: 1270907995448036, guid: 58528d5b5936d3143ab7cb6a7f6fe06c, type: 2}
   - {fileID: 1152810351566374, guid: 2df4a8d0523d2484d95a5dce03354684, type: 2}
+  - {fileID: 1872232887937466, guid: a29caeab1a27c734980be843dfb66670, type: 2}
   MeleePfs:
   - {fileID: 1744613922603756, guid: e021b2a1c8f63954a9350df8cbd11d48, type: 2}
   SecondariesPfs:
   - {fileID: 1537689719048164, guid: 5839096eeeda58e488e6536cf29f297a, type: 2}
   - {fileID: 1024689041796290, guid: a6efb1d89f5fa254fad7bf818eb44a52, type: 2}
-  - {fileID: 1792153487255822, guid: 25cdc547d838d0c469523e238d83ce50, type: 2}
+  - {fileID: 1187924728971010, guid: bdb6723a1ef187d44b043e5850a48626, type: 2}
   Faces:
   - Country: 0
     FaceSprite: {fileID: 21300000, guid: 6f433c9bffab4184db645c877ed6e664, type: 3}
@@ -3201,11 +3202,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DefaultLoadouts:
   - Country: 0
-    PrimaryWeapon: 2
+    PrimaryWeapon: 3
     MeleeWeapon: 0
-    SecondaryWeapon: 2
+    SecondaryWeapon: 1
   - Country: 1
-    PrimaryWeapon: 0
+    PrimaryWeapon: 3
     MeleeWeapon: 0
     SecondaryWeapon: 2
   SpawnPoints:

@@ -1,6 +1,6 @@
 ﻿public enum SecondaryWeaponType
 {
     Speed,
-    Smoke,
+    Shield,
     Emp
 }

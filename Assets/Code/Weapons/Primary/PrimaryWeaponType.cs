@@ -3,5 +3,6 @@
     GatlingGun,
     RocketLauncher,
     GrenadeLauncher,
-    Railgun
+    Railgun,
+    Flamer
 }
