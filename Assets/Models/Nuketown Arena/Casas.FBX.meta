@@ -1,0 +1,887 @@
+fileFormatVersion: 2
+guid: 51d17e3b07b175f4a809398a4edca814
+timeCreated: 1519304578
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Box003
+    100002: Box004
+    100004: Box005
+    100006: Box006
+    100008: Box007
+    100010: Box008
+    100012: Box009
+    100014: Box010
+    100016: Box015
+    100018: Box016
+    100020: Box017
+    100022: Box018
+    100024: Box027
+    100026: Box028
+    100028: Box029
+    100030: Box030
+    100032: Box031
+    100034: Box032
+    100036: Box033
+    100038: Box034
+    100040: Box039
+    100042: Box040
+    100044: Box041
+    100046: Box042
+    100048: Box043
+    100050: Box044
+    100052: Casa A 005
+    100054: Casa A 006
+    100056: Casa A 1
+    100058: Casa A 2
+    100060: Casa A 3
+    100062: Casa B 1
+    100064: Casa B 2
+    100066: Casa B 3
+    100068: Casa C 004
+    100070: Casa C 005
+    100072: Casa C 009
+    100074: Casa C 010
+    100076: Casa C 013
+    100078: Casa C 014
+    100080: Casa C 015
+    100082: Casa C 1
+    100084: //RootNode
+    100086: Ventana 004
+    100088: Ventana 005
+    100090: Ventana 006
+    100092: Ventana 007
+    100094: Ventana 008
+    100096: Ventana 009
+    100098: Ventana 010
+    100100: Ventana 011
+    100102: Ventana 012
+    100104: Ventana 013
+    100106: Ventana 014
+    100108: Ventana 015
+    100110: Ventana 016
+    100112: Ventana 017
+    100114: Ventana 018
+    100116: Ventana 020
+    100118: Ventana 041
+    100120: Ventana 044
+    100122: Ventana 045
+    100124: Ventana 046
+    100126: Ventana 047
+    100128: Ventana 048
+    100130: Ventana 049
+    100132: Ventana 050
+    100134: Ventana 051
+    100136: Ventana 052
+    100138: Ventana 053
+    100140: Ventana 054
+    100142: Ventana 055
+    100144: Ventana 056
+    100146: Ventana 057
+    100148: Ventana 058
+    100150: Ventana 059
+    100152: Ventana 060
+    100154: Ventana 061
+    100156: Ventana 062
+    100158: Ventana 095
+    100160: Ventana 096
+    100162: Ventana 097
+    100164: Ventana 098
+    100166: Ventana 099
+    100168: Ventana 100
+    100170: Ventana 101
+    100172: Ventana 102
+    100174: Ventana 103
+    100176: Ventana 104
+    100178: Ventana 105
+    100180: Ventana 106
+    100182: Ventana 107
+    100184: Ventana 108
+    100186: Ventana 109
+    100188: Ventana 110
+    100190: Ventana 111
+    100192: Ventana 112
+    100194: Ventana 113
+    100196: Ventana 114
+    100198: Ventana 115
+    100200: Ventana 116
+    100202: Ventana 117
+    100204: Ventana 118
+    100206: Ventana 139
+    100208: Ventana 140
+    100210: Ventana 141
+    100212: Ventana 142
+    100214: Ventana 143
+    100216: Ventana 144
+    100218: Ventana 145
+    100220: Ventana 146
+    100222: Ventana 147
+    100224: Ventana 148
+    100226: Ventana 149
+    100228: Ventana 150
+    100230: Ventana 151
+    100232: Ventana 152
+    100234: Ventana 153
+    100236: Ventana 154
+    100238: Ventana 155
+    100240: Ventana 156
+    100242: Ventana 157
+    100244: Ventana 158
+    100246: Ventana 159
+    100248: Ventana 160
+    100250: Ventana 161
+    100252: Ventana 162
+    100254: Ventana 163
+    100256: Ventana 164
+    100258: Ventana 165
+    100260: Ventana 166
+    100262: Ventana 167
+    100264: Ventana 168
+    100266: Ventana006
+    100268: Ventana007
+    100270: Ventana008
+    100272: Ventana009
+    100274: Ventana010
+    100276: Ventana011
+    100278: Ventana012
+    100280: Ventana013
+    100282: Ventana014
+    100284: Ventana015
+    100286: Ventana016
+    100288: Ventana017
+    100290: Ventana018
+    100292: Ventana019
+    100294: Ventana020
+    100296: Ventana021
+    100298: Ventana022
+    100300: Ventana023
+    100302: Ventana030
+    100304: Ventana031
+    100306: Ventana032
+    100308: Ventana033
+    100310: Ventana034
+    100312: Ventana035
+    100314: Ventana036
+    100316: Ventana037
+    100318: Ventana038
+    100320: Ventana039
+    100322: Ventana040
+    100324: Ventana041
+    400000: Box003
+    400002: Box004
+    400004: Box005
+    400006: Box006
+    400008: Box007
+    400010: Box008
+    400012: Box009
+    400014: Box010
+    400016: Box015
+    400018: Box016
+    400020: Box017
+    400022: Box018
+    400024: Box027
+    400026: Box028
+    400028: Box029
+    400030: Box030
+    400032: Box031
+    400034: Box032
+    400036: Box033
+    400038: Box034
+    400040: Box039
+    400042: Box040
+    400044: Box041
+    400046: Box042
+    400048: Box043
+    400050: Box044
+    400052: Casa A 005
+    400054: Casa A 006
+    400056: Casa A 1
+    400058: Casa A 2
+    400060: Casa A 3
+    400062: Casa B 1
+    400064: Casa B 2
+    400066: Casa B 3
+    400068: Casa C 004
+    400070: Casa C 005
+    400072: Casa C 009
+    400074: Casa C 010
+    400076: Casa C 013
+    400078: Casa C 014
+    400080: Casa C 015
+    400082: Casa C 1
+    400084: //RootNode
+    400086: Ventana 004
+    400088: Ventana 005
+    400090: Ventana 006
+    400092: Ventana 007
+    400094: Ventana 008
+    400096: Ventana 009
+    400098: Ventana 010
+    400100: Ventana 011
+    400102: Ventana 012
+    400104: Ventana 013
+    400106: Ventana 014
+    400108: Ventana 015
+    400110: Ventana 016
+    400112: Ventana 017
+    400114: Ventana 018
+    400116: Ventana 020
+    400118: Ventana 041
+    400120: Ventana 044
+    400122: Ventana 045
+    400124: Ventana 046
+    400126: Ventana 047
+    400128: Ventana 048
+    400130: Ventana 049
+    400132: Ventana 050
+    400134: Ventana 051
+    400136: Ventana 052
+    400138: Ventana 053
+    400140: Ventana 054
+    400142: Ventana 055
+    400144: Ventana 056
+    400146: Ventana 057
+    400148: Ventana 058
+    400150: Ventana 059
+    400152: Ventana 060
+    400154: Ventana 061
+    400156: Ventana 062
+    400158: Ventana 095
+    400160: Ventana 096
+    400162: Ventana 097
+    400164: Ventana 098
+    400166: Ventana 099
+    400168: Ventana 100
+    400170: Ventana 101
+    400172: Ventana 102
+    400174: Ventana 103
+    400176: Ventana 104
+    400178: Ventana 105
+    400180: Ventana 106
+    400182: Ventana 107
+    400184: Ventana 108
+    400186: Ventana 109
+    400188: Ventana 110
+    400190: Ventana 111
+    400192: Ventana 112
+    400194: Ventana 113
+    400196: Ventana 114
+    400198: Ventana 115
+    400200: Ventana 116
+    400202: Ventana 117
+    400204: Ventana 118
+    400206: Ventana 139
+    400208: Ventana 140
+    400210: Ventana 141
+    400212: Ventana 142
+    400214: Ventana 143
+    400216: Ventana 144
+    400218: Ventana 145
+    400220: Ventana 146
+    400222: Ventana 147
+    400224: Ventana 148
+    400226: Ventana 149
+    400228: Ventana 150
+    400230: Ventana 151
+    400232: Ventana 152
+    400234: Ventana 153
+    400236: Ventana 154
+    400238: Ventana 155
+    400240: Ventana 156
+    400242: Ventana 157
+    400244: Ventana 158
+    400246: Ventana 159
+    400248: Ventana 160
+    400250: Ventana 161
+    400252: Ventana 162
+    400254: Ventana 163
+    400256: Ventana 164
+    400258: Ventana 165
+    400260: Ventana 166
+    400262: Ventana 167
+    400264: Ventana 168
+    400266: Ventana006
+    400268: Ventana007
+    400270: Ventana008
+    400272: Ventana009
+    400274: Ventana010
+    400276: Ventana011
+    400278: Ventana012
+    400280: Ventana013
+    400282: Ventana014
+    400284: Ventana015
+    400286: Ventana016
+    400288: Ventana017
+    400290: Ventana018
+    400292: Ventana019
+    400294: Ventana020
+    400296: Ventana021
+    400298: Ventana022
+    400300: Ventana023
+    400302: Ventana030
+    400304: Ventana031
+    400306: Ventana032
+    400308: Ventana033
+    400310: Ventana034
+    400312: Ventana035
+    400314: Ventana036
+    400316: Ventana037
+    400318: Ventana038
+    400320: Ventana039
+    400322: Ventana040
+    400324: Ventana041
+    2100000: Casa 6 Pared
+    2100002: Casa 6 Techo
+    2100004: Pared
+    2100006: Blanco
+    2100008: Casas 1
+    2100010: 09 - Default
+    2100012: 'Material #1173'
+    2100014: Casa 2 Pared
+    2100016: Casa 2 Techo
+    2100018: Calle
+    2100020: Casa 4 Techo
+    2100022: Casa 4 Pared
+    2100024: Techo 9
+    2100026: Casa 1 Pared
+    2100028: Detalles Casa 8
+    2100030: Casa 5 Pared
+    2100032: Casa 5 Techo
+    2100034: 08 - Default
+    2100036: Casa 7 Pared
+    2100038: Casa 7 Techo
+    2100040: 22 - Default
+    2100042: 05 - Default
+    2100044: 13 - Default
+    2100046: 15 - Default
+    2100048: 07 - Default
+    2100050: 19 - Default
+    2100052: Casa 3 Pared
+    2300000: Box003
+    2300002: Box004
+    2300004: Box005
+    2300006: Box006
+    2300008: Box007
+    2300010: Box008
+    2300012: Box009
+    2300014: Box010
+    2300016: Box015
+    2300018: Box016
+    2300020: Box017
+    2300022: Box018
+    2300024: Box027
+    2300026: Box028
+    2300028: Box029
+    2300030: Box030
+    2300032: Box031
+    2300034: Box032
+    2300036: Box033
+    2300038: Box034
+    2300040: Box039
+    2300042: Box040
+    2300044: Box041
+    2300046: Box042
+    2300048: Box043
+    2300050: Box044
+    2300052: Casa B 1
+    2300054: Casa B 2
+    2300056: Casa B 3
+    2300058: Ventana 004
+    2300060: Ventana 005
+    2300062: Ventana 006
+    2300064: Ventana 007
+    2300066: Ventana 008
+    2300068: Ventana 009
+    2300070: Ventana 010
+    2300072: Ventana 011
+    2300074: Ventana 012
+    2300076: Ventana 013
+    2300078: Ventana 014
+    2300080: Ventana 015
+    2300082: Ventana 016
+    2300084: Ventana 017
+    2300086: Ventana 018
+    2300088: Ventana 020
+    2300090: Ventana 041
+    2300092: Ventana 044
+    2300094: Ventana 045
+    2300096: Ventana 046
+    2300098: Ventana 047
+    2300100: Ventana 048
+    2300102: Ventana 049
+    2300104: Ventana 050
+    2300106: Ventana 051
+    2300108: Ventana 052
+    2300110: Ventana 053
+    2300112: Ventana 054
+    2300114: Ventana 055
+    2300116: Ventana 056
+    2300118: Ventana 057
+    2300120: Ventana 058
+    2300122: Ventana 059
+    2300124: Ventana 060
+    2300126: Ventana 061
+    2300128: Ventana 062
+    2300130: Ventana 095
+    2300132: Ventana 096
+    2300134: Ventana 097
+    2300136: Ventana 098
+    2300138: Ventana 099
+    2300140: Ventana 100
+    2300142: Ventana 101
+    2300144: Ventana 102
+    2300146: Ventana 103
+    2300148: Ventana 104
+    2300150: Ventana 105
+    2300152: Ventana 106
+    2300154: Ventana 107
+    2300156: Ventana 108
+    2300158: Ventana 109
+    2300160: Ventana 110
+    2300162: Ventana 111
+    2300164: Ventana 112
+    2300166: Ventana 113
+    2300168: Ventana 114
+    2300170: Ventana 115
+    2300172: Ventana 116
+    2300174: Ventana 117
+    2300176: Ventana 118
+    2300178: Ventana 139
+    2300180: Ventana 140
+    2300182: Ventana 141
+    2300184: Ventana 142
+    2300186: Ventana 143
+    2300188: Ventana 144
+    2300190: Ventana 145
+    2300192: Ventana 146
+    2300194: Ventana 147
+    2300196: Ventana 148
+    2300198: Ventana 149
+    2300200: Ventana 150
+    2300202: Ventana 151
+    2300204: Ventana 152
+    2300206: Ventana 153
+    2300208: Ventana 154
+    2300210: Ventana 155
+    2300212: Ventana 156
+    2300214: Ventana 157
+    2300216: Ventana 158
+    2300218: Ventana 159
+    2300220: Ventana 160
+    2300222: Ventana 161
+    2300224: Ventana 162
+    2300226: Ventana 163
+    2300228: Ventana 164
+    2300230: Ventana 165
+    2300232: Ventana 166
+    2300234: Ventana 167
+    2300236: Ventana 168
+    2300238: Ventana006
+    2300240: Ventana007
+    2300242: Ventana008
+    2300244: Ventana009
+    2300246: Ventana010
+    2300248: Ventana011
+    2300250: Ventana012
+    2300252: Ventana013
+    2300254: Ventana014
+    2300256: Ventana015
+    2300258: Ventana016
+    2300260: Ventana017
+    2300262: Ventana018
+    2300264: Ventana019
+    2300266: Ventana020
+    2300268: Ventana021
+    2300270: Ventana022
+    2300272: Ventana023
+    2300274: Ventana030
+    2300276: Ventana031
+    2300278: Ventana032
+    2300280: Ventana033
+    2300282: Ventana034
+    2300284: Ventana035
+    2300286: Ventana036
+    2300288: Ventana037
+    2300290: Ventana038
+    2300292: Ventana039
+    2300294: Ventana040
+    2300296: Ventana041
+    3300000: Box003
+    3300002: Box004
+    3300004: Box005
+    3300006: Box006
+    3300008: Box007
+    3300010: Box008
+    3300012: Box009
+    3300014: Box010
+    3300016: Box015
+    3300018: Box016
+    3300020: Box017
+    3300022: Box018
+    3300024: Box027
+    3300026: Box028
+    3300028: Box029
+    3300030: Box030
+    3300032: Box031
+    3300034: Box032
+    3300036: Box033
+    3300038: Box034
+    3300040: Box039
+    3300042: Box040
+    3300044: Box041
+    3300046: Box042
+    3300048: Box043
+    3300050: Box044
+    3300052: Casa B 1
+    3300054: Casa B 2
+    3300056: Casa B 3
+    3300058: Ventana 004
+    3300060: Ventana 005
+    3300062: Ventana 006
+    3300064: Ventana 007
+    3300066: Ventana 008
+    3300068: Ventana 009
+    3300070: Ventana 010
+    3300072: Ventana 011
+    3300074: Ventana 012
+    3300076: Ventana 013
+    3300078: Ventana 014
+    3300080: Ventana 015
+    3300082: Ventana 016
+    3300084: Ventana 017
+    3300086: Ventana 018
+    3300088: Ventana 020
+    3300090: Ventana 041
+    3300092: Ventana 044
+    3300094: Ventana 045
+    3300096: Ventana 046
+    3300098: Ventana 047
+    3300100: Ventana 048
+    3300102: Ventana 049
+    3300104: Ventana 050
+    3300106: Ventana 051
+    3300108: Ventana 052
+    3300110: Ventana 053
+    3300112: Ventana 054
+    3300114: Ventana 055
+    3300116: Ventana 056
+    3300118: Ventana 057
+    3300120: Ventana 058
+    3300122: Ventana 059
+    3300124: Ventana 060
+    3300126: Ventana 061
+    3300128: Ventana 062
+    3300130: Ventana 095
+    3300132: Ventana 096
+    3300134: Ventana 097
+    3300136: Ventana 098
+    3300138: Ventana 099
+    3300140: Ventana 100
+    3300142: Ventana 101
+    3300144: Ventana 102
+    3300146: Ventana 103
+    3300148: Ventana 104
+    3300150: Ventana 105
+    3300152: Ventana 106
+    3300154: Ventana 107
+    3300156: Ventana 108
+    3300158: Ventana 109
+    3300160: Ventana 110
+    3300162: Ventana 111
+    3300164: Ventana 112
+    3300166: Ventana 113
+    3300168: Ventana 114
+    3300170: Ventana 115
+    3300172: Ventana 116
+    3300174: Ventana 117
+    3300176: Ventana 118
+    3300178: Ventana 139
+    3300180: Ventana 140
+    3300182: Ventana 141
+    3300184: Ventana 142
+    3300186: Ventana 143
+    3300188: Ventana 144
+    3300190: Ventana 145
+    3300192: Ventana 146
+    3300194: Ventana 147
+    3300196: Ventana 148
+    3300198: Ventana 149
+    3300200: Ventana 150
+    3300202: Ventana 151
+    3300204: Ventana 152
+    3300206: Ventana 153
+    3300208: Ventana 154
+    3300210: Ventana 155
+    3300212: Ventana 156
+    3300214: Ventana 157
+    3300216: Ventana 158
+    3300218: Ventana 159
+    3300220: Ventana 160
+    3300222: Ventana 161
+    3300224: Ventana 162
+    3300226: Ventana 163
+    3300228: Ventana 164
+    3300230: Ventana 165
+    3300232: Ventana 166
+    3300234: Ventana 167
+    3300236: Ventana 168
+    3300238: Ventana006
+    3300240: Ventana007
+    3300242: Ventana008
+    3300244: Ventana009
+    3300246: Ventana010
+    3300248: Ventana011
+    3300250: Ventana012
+    3300252: Ventana013
+    3300254: Ventana014
+    3300256: Ventana015
+    3300258: Ventana016
+    3300260: Ventana017
+    3300262: Ventana018
+    3300264: Ventana019
+    3300266: Ventana020
+    3300268: Ventana021
+    3300270: Ventana022
+    3300272: Ventana023
+    3300274: Ventana030
+    3300276: Ventana031
+    3300278: Ventana032
+    3300280: Ventana033
+    3300282: Ventana034
+    3300284: Ventana035
+    3300286: Ventana036
+    3300288: Ventana037
+    3300290: Ventana038
+    3300292: Ventana039
+    3300294: Ventana040
+    3300296: Ventana041
+    4300000: Box003
+    4300002: Box004
+    4300004: Ventana006
+    4300006: Ventana 004
+    4300008: Ventana 005
+    4300010: Ventana007
+    4300012: Ventana008
+    4300014: Ventana009
+    4300016: Ventana010
+    4300018: Ventana011
+    4300020: Box005
+    4300022: Box006
+    4300024: Ventana 006
+    4300026: Ventana 007
+    4300028: Ventana012
+    4300030: Ventana013
+    4300032: Ventana014
+    4300034: Ventana015
+    4300036: Ventana016
+    4300038: Ventana017
+    4300040: Box007
+    4300042: Box008
+    4300044: Ventana 008
+    4300046: Ventana 009
+    4300048: Ventana018
+    4300050: Ventana019
+    4300052: Ventana020
+    4300054: Ventana021
+    4300056: Ventana022
+    4300058: Ventana023
+    4300060: Box027
+    4300062: Box028
+    4300064: Ventana 095
+    4300066: Ventana 096
+    4300068: Ventana030
+    4300070: Ventana031
+    4300072: Ventana032
+    4300074: Ventana033
+    4300076: Ventana034
+    4300078: Ventana035
+    4300080: Box029
+    4300082: Box030
+    4300084: Ventana 097
+    4300086: Ventana 098
+    4300088: Ventana036
+    4300090: Ventana037
+    4300092: Ventana038
+    4300094: Ventana039
+    4300096: Ventana040
+    4300098: Ventana041
+    4300100: Casa B 1
+    4300102: Casa B 2
+    4300104: Casa B 3
+    4300106: Box009
+    4300108: Ventana 010
+    4300110: Ventana 011
+    4300112: Ventana 012
+    4300114: Ventana 013
+    4300116: Ventana 015
+    4300118: Ventana 014
+    4300120: Box010
+    4300122: Ventana 016
+    4300124: Ventana 017
+    4300126: Ventana 018
+    4300128: Ventana 020
+    4300130: Box015
+    4300132: Box016
+    4300134: Ventana 041
+    4300136: Ventana 044
+    4300138: Ventana 045
+    4300140: Ventana 046
+    4300142: Ventana 047
+    4300144: Ventana 048
+    4300146: Ventana 049
+    4300148: Ventana 050
+    4300150: Ventana 051
+    4300152: Ventana 052
+    4300154: Box017
+    4300156: Box018
+    4300158: Ventana 053
+    4300160: Ventana 054
+    4300162: Ventana 055
+    4300164: Ventana 056
+    4300166: Ventana 057
+    4300168: Ventana 058
+    4300170: Ventana 059
+    4300172: Ventana 060
+    4300174: Ventana 061
+    4300176: Ventana 062
+    4300178: Box031
+    4300180: Box032
+    4300182: Ventana 099
+    4300184: Ventana 100
+    4300186: Ventana 101
+    4300188: Ventana 102
+    4300190: Ventana 103
+    4300192: Ventana 104
+    4300194: Ventana 105
+    4300196: Ventana 106
+    4300198: Ventana 107
+    4300200: Ventana 108
+    4300202: Box033
+    4300204: Box034
+    4300206: Ventana 109
+    4300208: Ventana 110
+    4300210: Ventana 111
+    4300212: Ventana 112
+    4300214: Ventana 113
+    4300216: Ventana 114
+    4300218: Ventana 115
+    4300220: Ventana 116
+    4300222: Ventana 117
+    4300224: Ventana 118
+    4300226: Box039
+    4300228: Box040
+    4300230: Ventana 139
+    4300232: Ventana 140
+    4300234: Ventana 141
+    4300236: Ventana 142
+    4300238: Ventana 143
+    4300240: Ventana 144
+    4300242: Ventana 145
+    4300244: Ventana 146
+    4300246: Ventana 147
+    4300248: Ventana 148
+    4300250: Box041
+    4300252: Box042
+    4300254: Ventana 149
+    4300256: Ventana 150
+    4300258: Ventana 151
+    4300260: Ventana 152
+    4300262: Ventana 153
+    4300264: Ventana 154
+    4300266: Ventana 155
+    4300268: Ventana 156
+    4300270: Ventana 157
+    4300272: Ventana 158
+    4300274: Box043
+    4300276: Box044
+    4300278: Ventana 159
+    4300280: Ventana 160
+    4300282: Ventana 161
+    4300284: Ventana 162
+    4300286: Ventana 163
+    4300288: Ventana 164
+    4300290: Ventana 165
+    4300292: Ventana 166
+    4300294: Ventana 167
+    4300296: Ventana 168
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
