@@ -21,6 +21,7 @@ public class GottaGoFast : SecondaryWeaponBase
         if (isActive)
         {
             effectElapsed -= Time.fixedDeltaTime;
+            uiController.DepleteSecondary();
             if (effectElapsed <= 0f)
             {
                 ResetEffect();
@@ -43,6 +44,7 @@ public class GottaGoFast : SecondaryWeaponBase
 
     protected override void Initialize()
     {
+        base.Initialize();
         stats = GetComponentInParent<PlayerBot>().Stats;
         baseSpeed = stats.SpeedScore;
         baseTopSpeed = stats.TopSpeed;

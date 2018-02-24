@@ -20,7 +20,7 @@ public class GrenadeLauncher : PrimaryWeaponBase
     public override void Fire()
     {
         var dir = this.transform.forward;
-        dir.y += 1f;
+        dir.y += GLStats.Arc;
 
         var range = Random.Range(GLStats.MinRange, GLStats.MaxRange);
 

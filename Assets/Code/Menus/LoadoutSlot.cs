@@ -25,6 +25,7 @@ public class LoadoutSlot : MonoBehaviour
         var bot = Instantiate(Resources.BotsPfs[country], BotPlatform).GetComponent<StaticWeaponLoader>();
         bot.LoadPrimary(Resources.PrimariesPfs[primary]);
         bot.LoadSecondary(Resources.SecondariesPfs[secondary]);
+        bot.LoadMelee(Resources.MeleePfs[0]);
 
         Flag.material = FlagMaterials[country];
     }

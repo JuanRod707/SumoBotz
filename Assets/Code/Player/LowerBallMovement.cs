@@ -9,7 +9,11 @@ public class LowerBallMovement : LowerPartMovement
 
     public override void Move()
     {
-        myBody.AddForce(this.transform.forward * botStats.SpeedScore);
+        if (myBody != null)
+        {
+            myBody.AddForce(this.transform.forward * botStats.SpeedScore);
+        }
+
         Turn();
         Ball.Rotate(BallRotation);
     }

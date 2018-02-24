@@ -1,8 +1,8 @@
 # Made using Asset Forge (www.assetforge.io) version 1.3 
 
-newmtl roofJade (Instance)
+newmtl customMaterial8 (Instance)
 Ka 0.000000 0.000000 0.000000 
-Kd 0.302 0.561 0.431 
+Kd 0.2352978 0.08363855 0.6900244 
 Ks 0.330000 0.330000 0.330000 
 
 newmtl bricks (Instance)
@@ -13,11 +13,6 @@ Ks 0.330000 0.330000 0.330000
 newmtl bricks (Instance) (Instance)
 Ka 0.000000 0.000000 0.000000 
 Kd 0.886 0.467 0.341 
-Ks 0.330000 0.330000 0.330000 
-
-newmtl roofJade (Instance) (Instance)
-Ka 0.000000 0.000000 0.000000 
-Kd 0.302 0.561 0.431 
 Ks 0.330000 0.330000 0.330000 
 
 newmtl lightStone (Instance) (Instance)

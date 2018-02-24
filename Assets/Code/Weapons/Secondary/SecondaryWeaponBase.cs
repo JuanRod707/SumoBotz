@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.Net;
+using Code.Player;
 using UnityEngine;
 
 public abstract class SecondaryWeaponBase : MonoBehaviour
@@ -10,6 +11,7 @@ public abstract class SecondaryWeaponBase : MonoBehaviour
     protected float cooldownElapsed;
     protected float effectElapsed;
     protected bool isActive;
+    protected BotUIController uiController;
 
     public virtual SecondaryWeaponStats GetStats
     {
@@ -18,11 +20,13 @@ public abstract class SecondaryWeaponBase : MonoBehaviour
 
     protected virtual void Initialize()
     {
+        uiController = GetComponentInParent<BotUIController>();
     }
 
     protected virtual void ResetEffect()
     {
         isActive = false;
+        uiController.ResetSecondaryCooldown();
     }
 
     protected virtual void ApplyEffect()

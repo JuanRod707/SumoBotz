@@ -45,6 +45,8 @@ namespace Code.Player
             director.AddPlayer(this);
 
             PlayerRing.color = res.GetColor(PlayerId);
+
+
         }
         
         public void ReceiveDamage(int damage)

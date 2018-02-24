@@ -15,6 +15,7 @@ public class Emp : SecondaryWeaponBase
 
     void Start()
     {
+        Initialize();
         playerId = this.GetComponentInParent<PlayerBot>().PlayerId;
     }
 
@@ -24,6 +25,7 @@ public class Emp : SecondaryWeaponBase
         {
             cooldownElapsed -= Time.fixedDeltaTime;
         }
+
     }
 
     public override void Fire()
@@ -33,6 +35,7 @@ public class Emp : SecondaryWeaponBase
             var shock = Instantiate(EmpPrefab, this.transform.position, Quaternion.identity).GetComponent<EmpShockwave>();
             shock.Trigger(playerId, Stats.EffectDuration, Stats.ShockwaveRange);
             cooldownElapsed = Stats.Cooldown;
+            uiController.ResetSecondaryCooldown();
         }
     }
 }

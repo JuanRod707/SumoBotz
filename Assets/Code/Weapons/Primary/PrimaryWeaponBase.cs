@@ -10,6 +10,7 @@ public abstract class PrimaryWeaponBase : MonoBehaviour
     protected BotUIController uiController;
 
     private bool canFire;
+    private bool isReloading;
     private int ammoInClip;
 
     public virtual float PushForce
@@ -24,9 +25,10 @@ public abstract class PrimaryWeaponBase : MonoBehaviour
 
     protected void Start()
     {
+        uiController = GetComponentInParent<BotUIController>();
         canFire = true;
         ammoInClip = Stats.AmmoCap;
-        transform.localScale = Vector3.one;
+        //transform.localScale = Vector3.one;
     }
 
     public void OnFire()
@@ -34,8 +36,9 @@ public abstract class PrimaryWeaponBase : MonoBehaviour
         if (ammoInClip > 0 && canFire)
         {
             Fire();
-            StartCoroutine(CycleFire());
             ammoInClip--;
+            uiController.DepletePrimary(1);
+            StartCoroutine(CycleFire());
         }
         else if(ammoInClip <= 0)
         {
@@ -50,14 +53,20 @@ public abstract class PrimaryWeaponBase : MonoBehaviour
 
     private void Reload()
     {
-        StartCoroutine(StartReload());
+        if (!isReloading)
+        {
+            StartCoroutine(StartReload());
+        }
     }
 
     IEnumerator StartReload()
     {
+        isReloading = true;
         ammoInClip = 0;
+        uiController.ResetPrimaryCooldown();
         yield return new WaitForSeconds(Stats.ReloadTime);
         ammoInClip = Stats.AmmoCap;
+        isReloading = false;
     }
 
     IEnumerator CycleFire()

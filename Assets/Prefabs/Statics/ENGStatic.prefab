@@ -154,7 +154,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4614317041788314}
   m_Layer: 0
-  m_Name: LeftSlot
+  m_Name: PrimarySlot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -218,7 +218,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4831928780996610}
   m_Layer: 0
-  m_Name: RightSlot
+  m_Name: MeleeSlot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -333,21 +333,6 @@ GameObject:
   - component: {fileID: 23059386675783910}
   m_Layer: 0
   m_Name: Falda
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1629958963734722
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4619020022202070}
-  m_Layer: 0
-  m_Name: PrimaryWeapon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -731,7 +716,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4564639557620666}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4529946908807654
 Transform:
@@ -789,8 +774,9 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 4619020022202070}
   - {fileID: 4510130180435104}
+  - {fileID: 4831928780996610}
+  - {fileID: 4614317041788314}
   m_Father: {fileID: 4894830876364700}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -817,8 +803,8 @@ Transform:
   m_LocalPosition: {x: -0.4, y: -0.13, z: -0.01}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 4619020022202070}
-  m_RootOrder: 1
+  m_Father: {fileID: 4564639557620666}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4618882179082694
 Transform:
@@ -850,21 +836,6 @@ Transform:
   - {fileID: 4612724818536622}
   m_Father: {fileID: 4562058949200416}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4619020022202070
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1629958963734722}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 4831928780996610}
-  - {fileID: 4614317041788314}
-  m_Father: {fileID: 4564639557620666}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4620913253375182
 Transform:
@@ -969,8 +940,8 @@ Transform:
   m_LocalPosition: {x: 0.4, y: -0.13, z: -0.01}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 4619020022202070}
-  m_RootOrder: 0
+  m_Father: {fileID: 4564639557620666}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4860441619702280
 Transform:
@@ -1929,7 +1900,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 365f634d57944af8b8065a11e9297d1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PrimaryWeaponSpots:
-  - {fileID: 4831928780996610}
-  - {fileID: 4614317041788314}
+  PrimaryWeaponSpots: {fileID: 4614317041788314}
+  MeleeWeaponSlot: {fileID: 4831928780996610}
   SecondaryWeaponSpot: {fileID: 4510130180435104}

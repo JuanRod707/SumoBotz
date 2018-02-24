@@ -5,16 +5,20 @@ using UnityEngine;
 
 public class StaticWeaponLoader : MonoBehaviour
 {
-    public Transform[] PrimaryWeaponSpots;
+    public Transform PrimaryWeaponSpots;
+    public Transform MeleeWeaponSlot;
     public Transform SecondaryWeaponSpot;
-    
+
     public void LoadPrimary(GameObject weapon)
     {
-        foreach (var s in PrimaryWeaponSpots)
-        {
-            var weap = Instantiate(weapon, s);
-            weap.transform.localPosition = Vector3.zero;
-        }
+        var weap = Instantiate(weapon, PrimaryWeaponSpots);
+        weap.transform.localPosition = Vector3.zero;
+    }
+
+    public void LoadMelee(GameObject weapon)
+    {
+        var weap = Instantiate(weapon, MeleeWeaponSlot);
+        weap.transform.localPosition = Vector3.zero;
     }
 
     public void LoadSecondary(GameObject weapon)

@@ -2182,6 +2182,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HudContainer: PlayerStats
+  FloatingHudPf: {fileID: 1895461117349096, guid: 62756cb7e3a867746a7a4c8dcea5e24b,
+    type: 2}
 --- !u!114 &114526247324800054
 MonoBehaviour:
   m_ObjectHideFlags: 1

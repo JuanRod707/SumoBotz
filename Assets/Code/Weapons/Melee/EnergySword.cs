@@ -14,6 +14,6 @@ public class EnergySword : MeleeWeaponBase
     {
         GetComponentInChildren<PistonShot>().Thrust();
         var hit = Instantiate(MeleeAoE, FirePosition.position, transform.rotation).GetComponent<MeleeAttack>();
-        hit.Attack(Stats.Damage);
+        hit.Attack(Stats.Damage, PushForce);
     }
 }

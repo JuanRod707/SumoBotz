@@ -17,6 +17,7 @@ public class Shield : SecondaryWeaponBase
         if (isActive)
         {
             effectElapsed -= Time.fixedDeltaTime;
+            uiController.DepleteSecondary();
             if (effectElapsed <= 0f)
             {
                 ResetEffect();

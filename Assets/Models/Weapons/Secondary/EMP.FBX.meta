@@ -255,6 +255,10 @@ ModelImporter:
     100494: Parte Giratoria Alta
     100496: Perfect Timing
     100498: Rombos Serp
+    100500: ' 1'
+    100502: Circuit Board
+    100504: Cylinder004
+    100506: Cylinder005
     400000: Cylinder001
     400002: Cylinder002
     400004: //RootNode
@@ -505,6 +509,10 @@ ModelImporter:
     400494: Parte Giratoria Alta
     400496: Perfect Timing
     400498: Rombos Serp
+    400500: ' 1'
+    400502: Circuit Board
+    400504: Cylinder004
+    400506: Cylinder005
     2300000: Cylinder001
     2300002: Object006
     2300004: Object007
@@ -751,6 +759,9 @@ ModelImporter:
     2300486: Object272
     2300488: Object273
     2300490: Parte Giratoria Alta
+    2300492: ' 1'
+    2300494: Cylinder004
+    2300496: Cylinder005
     3300000: Cylinder001
     3300002: Object006
     3300004: Object007
@@ -997,6 +1008,9 @@ ModelImporter:
     3300486: Object272
     3300488: Object273
     3300490: Parte Giratoria Alta
+    3300492: ' 1'
+    3300494: Cylinder004
+    3300496: Cylinder005
     4300000: Object273
     4300002: Cylinder001
     4300004: Parte Giratoria Alta
@@ -1243,12 +1257,99 @@ ModelImporter:
     4300486: Object269
     4300488: Object270
     4300490: Object271
+    4300494: Cylinder005
+    4300496: Cylinder004
   externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 02 - Default
+    second: {fileID: 2100000, guid: c1a9f23a6190cca469b8b3bb0781ff45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 03 - Default
+    second: {fileID: 2100000, guid: faab53e9f1fc73c40990d40df270e5bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 04 - Default
+    second: {fileID: 2100000, guid: 131183a1dcbb41848bd41493ea08ddb2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 05 - Default
+    second: {fileID: 2100000, guid: 4734815b18e7f584186a332261d47c19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 06 - Default
+    second: {fileID: 2100000, guid: 0d26b152504bfea4fa6614a7e99c162b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 07 - Default
+    second: {fileID: 2100000, guid: 6c16ade46772e2e48b9f421ee863d4c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 08 - Default
+    second: {fileID: 2100000, guid: b6ba01e4a0241124cab2536af73a80cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 09 - Default
+    second: {fileID: 2100000, guid: c515fb45ae6b0d049a5723528df1fd77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 10 - Default
+    second: {fileID: 2100000, guid: f561c62598c954a4e8858eb19868df74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 11 - Default
+    second: {fileID: 2100000, guid: 2f08f75822cadb54297f75190c2daea0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 12 - Default
+    second: {fileID: 2100000, guid: 399a3ed43f333264f9b5359b7425f9f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 13
+    second: {fileID: 2100000, guid: bab9850ffc04c344ebd7a85c2e4fc402, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 14
+    second: {fileID: 2100000, guid: d9f66efe987ed7d4c8345326d8448a9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Amarillo
+    second: {fileID: 2100000, guid: 2de598a999edd794f83ac84c14b626b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gris Claro
+    second: {fileID: 2100000, guid: 15bd4ccbd1539cf48b268b5404faf1c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gris Oscuro
+    second: {fileID: 2100000, guid: bdd7dc67508b6944e8507152743decc1, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: No Name
     second: {fileID: 2100000, guid: 603f406d0fd3341499699f08564893fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Verde
+    second: {fileID: 2100000, guid: a352eb51ebe019b45b26f1b05b90834a, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -1291,6 +1392,8 @@ ModelImporter:
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88

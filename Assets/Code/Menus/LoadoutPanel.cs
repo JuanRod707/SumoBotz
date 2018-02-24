@@ -19,6 +19,7 @@ public class LoadoutPanel :MonoBehaviour
             ldt.Country = (Nationality) PlayerCountry.value;
             ldt.PrimaryWeapon = (PrimaryWeaponType) PrimaryWeapon.value;
             ldt.SecondaryWeapon = (SecondaryWeaponType) SecondaryWeapon.value;
+            ldt.MeleeWeapon = MeleeWeaponType.EnergySword;
 
             return ldt;
         }

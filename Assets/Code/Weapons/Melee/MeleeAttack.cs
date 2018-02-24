@@ -8,6 +8,7 @@ namespace Assets.Code.Weapons.Melee
     {
         private int damage;
         private List<IDamageable> damagedEntities;
+        private float pushForce;
 
         private List<IDamageable> dmgList {
             get
@@ -21,9 +22,10 @@ namespace Assets.Code.Weapons.Melee
             }
         }
 
-        public void Attack(int dmg)
+        public void Attack(int dmg, float pushForce)
         {
             damage = dmg;
+            this.pushForce = pushForce;
         }
 
         private void OnTriggerEnter(Collider other)
@@ -39,6 +41,26 @@ namespace Assets.Code.Weapons.Melee
             {
                 dmgList.Add(target);
                 target.ReceiveDamage(damage);
+                Push(other);
+            }
+        }
+
+        void Push(Collider col)
+        {
+            var body = col.GetComponent<Rigidbody>();
+
+            if (body == null)
+            {
+                body = col.GetComponentInParent<Rigidbody>();
+            }
+
+            if (body != null)
+            {
+                var distance = Vector3.Lerp(this.transform.position, body.transform.position, 1f).normalized;
+                var pushvector = transform.InverseTransformVector(distance);
+                pushvector.y = 0f;
+
+                body.AddForce(pushvector * pushForce);
             }
         }
     }

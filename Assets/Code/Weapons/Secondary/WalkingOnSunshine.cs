@@ -18,6 +18,7 @@ public class WalkingOnSunshine : SecondaryWeaponBase
         if (isActive)
         {
             effectElapsed -= Time.fixedDeltaTime;
+            uiController.DepleteSecondary();
             if (effectElapsed <= 0f)
             {
                 ResetEffect();
@@ -40,6 +41,7 @@ public class WalkingOnSunshine : SecondaryWeaponBase
 
     protected override void Initialize()
     {
+        base.Initialize();
         botBody = GetComponentInParent<Rigidbody>();
     }
 

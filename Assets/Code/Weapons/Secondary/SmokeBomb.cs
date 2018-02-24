@@ -18,6 +18,7 @@ public class SmokeBomb : SecondaryWeaponBase
         if (isActive)
         {
             effectElapsed -= Time.fixedDeltaTime;
+            uiController.DepleteSecondary();
             if (effectElapsed <= 0f)
             {
                 ResetEffect();
@@ -40,6 +41,7 @@ public class SmokeBomb : SecondaryWeaponBase
 
     protected override void Initialize()
     {
+        base.Initialize();
         botBody = GetComponentInParent<Rigidbody>();
     }
 
