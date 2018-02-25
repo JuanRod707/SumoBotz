@@ -1979,9 +1979,9 @@ MonoBehaviour:
   ShootingPosition: {fileID: 4837845173032282}
   Muzzle: {fileID: 198529375614825238}
   GLStats:
-    Arc: 0.5
-    MinRange: 500
-    MaxRange: 700
+    Arc: 0.3
+    MinRange: 800
+    MaxRange: 1000
   Grenade: {fileID: 1672343222322012, guid: 1a275b52e6509f542a0f9e455760656e, type: 2}
 --- !u!198 &198529375614825238
 ParticleSystem:

@@ -12,19 +12,22 @@ namespace Assets.Code.UI
         public Image RobotFace;
         public int PlayerId;
 
+        private AberratePosition faceAberration;
         private float primaryRecovery;
         private float secondaryRecovery;
         private float dashRecovery;
 
         public void LoadFace(Sprite face)
         {
-           gameObject.SetActive(true);
+            gameObject.SetActive(true);
             RobotFace.sprite = face;
+            faceAberration = GetComponent<AberratePosition>();
         }
 
         public void UpdateHp(float hp)
         {
             HpBar.fillAmount = hp;
+            faceAberration.StartEffect();
         }
 
         public void ResetDashCooldown(float cooldown)
