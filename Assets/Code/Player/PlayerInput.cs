@@ -11,6 +11,13 @@ public class PlayerInput : MonoBehaviour
 
     private LowerPartMovement lowerMover;
     private PlayerBot bot;
+	private TauntManager taunt;
+
+	private string VArrow;
+	private string HArrow;
+
+	private bool DPadVPressed = false;
+	private bool DPadHPressed = false;
 
     private string LowerHorizontal;
     private string LowerVertical;
@@ -23,11 +30,16 @@ public class PlayerInput : MonoBehaviour
     private float inputDisableElapsed;
     private bool inputIsDisabled;
 
+
     // Use this for initialization
     void Start ()
     {
         lowerMover = this.GetComponent<LowerPartMovement>();
         bot = this.GetComponent<PlayerBot>();
+		taunt = this.GetComponent<TauntManager>();
+
+		VArrow = "VArrow_P" + bot.PlayerId;
+		HArrow = "HArrow_P" + bot.PlayerId;
 
         LowerHorizontal = "LowerH_P" + bot.PlayerId;
         LowerVertical = "LowerV_P" + bot.PlayerId;
@@ -78,6 +90,49 @@ public class PlayerInput : MonoBehaviour
             {
                 bot.Weapons.MeleeWeapon.OnFire();
             }
+
+//------------------------------------------------------
+
+			var dPadV = Input.GetAxisRaw(VArrow);
+
+			if(dPadV == 1 && !DPadVPressed)
+			{
+				taunt.Trigger(bot.PlayerId, "up");
+				DPadVPressed = true;
+			}
+								
+			if(dPadV == -1 && !DPadVPressed)
+			{				
+				taunt.Trigger(bot.PlayerId, "down");
+				DPadVPressed = true;
+			}
+				
+			if(dPadV == 0)
+			{
+				DPadVPressed = false;
+			}
+
+			var dPadH = Input.GetAxisRaw(HArrow);
+
+			if(dPadH == 1 && !DPadHPressed)
+			{
+				taunt.Trigger(bot.PlayerId, "right");
+				DPadHPressed = true;
+			}
+
+			if(dPadH == -1 && !DPadHPressed)
+			{
+				taunt.Trigger(bot.PlayerId, "left");
+				DPadHPressed = true;
+			}
+
+			if(dPadH == 0)
+			{
+				DPadHPressed = false;
+			}
+
+//--------------------------------------------------------
+
         }
         else
         {

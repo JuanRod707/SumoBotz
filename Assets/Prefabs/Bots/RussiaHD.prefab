@@ -471,6 +471,7 @@ GameObject:
   - component: {fileID: 114027780823571302}
   - component: {fileID: 114139785081931296}
   - component: {fileID: 114358031917672332}
+  - component: {fileID: 114636783244021712}
   m_Layer: 0
   m_Name: RussiaHD
   m_TagString: Player
@@ -2525,6 +2526,22 @@ MonoBehaviour:
   UpperMover: {fileID: 114949895788248830}
   DeadZone: 0.1
   SeparationFactor: 5
+--- !u!114 &114636783244021712
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1694935075625116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d0d710fd05da7248aefa94605053046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Taunts:
+  - {fileID: 180600, guid: f276f55eadaf0e34ba03d5b43bfbfae0, type: 2}
+  - {fileID: 156528, guid: 93a7485b7f1564c4aae6a739c3edc50e, type: 2}
+  - {fileID: 173990, guid: 69359de5f8759454bbfe449e619129bc, type: 2}
+  - {fileID: 110490, guid: 3a1dd40f2c911e541afb98fc9829ec06, type: 2}
 --- !u!114 &114949895788248830
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -513,6 +513,7 @@ GameObject:
   - component: {fileID: 114233903214175358}
   - component: {fileID: 114014595002215860}
   - component: {fileID: 114437130013664954}
+  - component: {fileID: 114333316909298348}
   m_Layer: 0
   m_Name: JapanHD
   m_TagString: Player
@@ -2154,6 +2155,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da0f73d9eb43442dbe2093bc4f8049d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114333316909298348
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1834762053434936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d0d710fd05da7248aefa94605053046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Taunts:
+  - {fileID: 180600, guid: f276f55eadaf0e34ba03d5b43bfbfae0, type: 2}
+  - {fileID: 156528, guid: 93a7485b7f1564c4aae6a739c3edc50e, type: 2}
+  - {fileID: 173990, guid: 69359de5f8759454bbfe449e619129bc, type: 2}
+  - {fileID: 110490, guid: 3a1dd40f2c911e541afb98fc9829ec06, type: 2}
 --- !u!114 &114425615522239482
 MonoBehaviour:
   m_ObjectHideFlags: 1

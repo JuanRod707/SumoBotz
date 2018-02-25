@@ -466,6 +466,7 @@ GameObject:
   - component: {fileID: 114806630463214400}
   - component: {fileID: 114581645119853434}
   - component: {fileID: 114654176832594296}
+  - component: {fileID: 114768481613612962}
   m_Layer: 0
   m_Name: ENGHD
   m_TagString: Player
@@ -2096,6 +2097,22 @@ MonoBehaviour:
   HudContainer: PlayerStats
   FloatingHudPf: {fileID: 1895461117349096, guid: 62756cb7e3a867746a7a4c8dcea5e24b,
     type: 2}
+--- !u!114 &114768481613612962
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1878121653763876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d0d710fd05da7248aefa94605053046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Taunts:
+  - {fileID: 180600, guid: f276f55eadaf0e34ba03d5b43bfbfae0, type: 2}
+  - {fileID: 156528, guid: 93a7485b7f1564c4aae6a739c3edc50e, type: 2}
+  - {fileID: 173990, guid: 69359de5f8759454bbfe449e619129bc, type: 2}
+  - {fileID: 110490, guid: 3a1dd40f2c911e541afb98fc9829ec06, type: 2}
 --- !u!114 &114806630463214400
 MonoBehaviour:
   m_ObjectHideFlags: 1
