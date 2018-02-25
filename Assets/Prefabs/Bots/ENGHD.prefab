@@ -2108,11 +2108,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d0d710fd05da7248aefa94605053046, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Taunts:
+  TauntEffects:
   - {fileID: 180600, guid: f276f55eadaf0e34ba03d5b43bfbfae0, type: 2}
-  - {fileID: 156528, guid: 93a7485b7f1564c4aae6a739c3edc50e, type: 2}
   - {fileID: 173990, guid: 69359de5f8759454bbfe449e619129bc, type: 2}
+  - {fileID: 156528, guid: 93a7485b7f1564c4aae6a739c3edc50e, type: 2}
   - {fileID: 110490, guid: 3a1dd40f2c911e541afb98fc9829ec06, type: 2}
+  DamageEffects:
+  - {fileID: 130346, guid: 07bf9ced87963e24299c2c2a22bfeeb6, type: 2}
+  DashEffect: {fileID: 187952, guid: c05e92eaee7a00844867e5edc8e0dde1, type: 2}
 --- !u!114 &114806630463214400
 MonoBehaviour:
   m_ObjectHideFlags: 1

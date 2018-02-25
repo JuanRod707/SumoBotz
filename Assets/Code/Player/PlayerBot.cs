@@ -20,6 +20,8 @@ namespace Code.Player
         private BotUIController uiController;
         private int currentHp;
 
+		private EffectManager effect;
+
         public bool IsAlive {
             get { return currentHp > 0; }
         }
@@ -46,13 +48,14 @@ namespace Code.Player
 
             PlayerRing.color = res.GetColor(PlayerId);
 
-
+			effect = this.GetComponent<EffectManager>();
         }
         
         public void ReceiveDamage(int damage)
         {
             currentHp -= damage;
             uiController.UpdateHp(currentHp);
+			effect.TriggerDamageEffect();
 
             if (currentHp <= 0)
             {

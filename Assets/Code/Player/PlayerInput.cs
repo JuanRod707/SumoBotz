@@ -11,7 +11,7 @@ public class PlayerInput : MonoBehaviour
 
     private LowerPartMovement lowerMover;
     private PlayerBot bot;
-	private TauntManager taunt;
+	private EffectManager taunt;
 
 	private string VArrow;
 	private string HArrow;
@@ -30,13 +30,12 @@ public class PlayerInput : MonoBehaviour
     private float inputDisableElapsed;
     private bool inputIsDisabled;
 
-
     // Use this for initialization
     void Start ()
     {
         lowerMover = this.GetComponent<LowerPartMovement>();
         bot = this.GetComponent<PlayerBot>();
-		taunt = this.GetComponent<TauntManager>();
+		taunt = this.GetComponent<EffectManager>();
 
 		VArrow = "VArrow_P" + bot.PlayerId;
 		HArrow = "HArrow_P" + bot.PlayerId;
@@ -90,20 +89,18 @@ public class PlayerInput : MonoBehaviour
             {
                 bot.Weapons.MeleeWeapon.OnFire();
             }
-
-//------------------------------------------------------
-
+//------------------------------------------------------ Codigo Bruno
 			var dPadV = Input.GetAxisRaw(VArrow);
 
 			if(dPadV == 1 && !DPadVPressed)
 			{
-				taunt.Trigger(bot.PlayerId, 0);
+				taunt.TriggerTaunt (0);
 				DPadVPressed = true;
 			}
 								
 			if(dPadV == -1 && !DPadVPressed)
 			{				
-				taunt.Trigger(bot.PlayerId, 1);
+				taunt.TriggerTaunt (1);
 				DPadVPressed = true;
 			}
 				
@@ -116,13 +113,13 @@ public class PlayerInput : MonoBehaviour
 
 			if(dPadH == 1 && !DPadHPressed)
 			{
-				taunt.Trigger(bot.PlayerId, 2);
+				taunt.TriggerTaunt (2);
 				DPadHPressed = true;
 			}
 
 			if(dPadH == -1 && !DPadHPressed)
 			{
-				taunt.Trigger(bot.PlayerId, 3);
+				taunt.TriggerTaunt (3);
 				DPadHPressed = true;
 			}
 
@@ -130,9 +127,7 @@ public class PlayerInput : MonoBehaviour
 			{
 				DPadHPressed = false;
 			}
-
 //--------------------------------------------------------
-
         }
         else
         {

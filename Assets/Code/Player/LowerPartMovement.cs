@@ -13,9 +13,12 @@ public class LowerPartMovement : MonoBehaviour
     protected float dashCooldownElapsed;
     protected Rigidbody myBody;
 
+	private EffectManager effect;
+
     protected void Start()
     {
         myBody = this.GetComponent<Rigidbody>();
+		effect = this.GetComponent<EffectManager>();
     }
 
     protected virtual void FixedUpdate()
@@ -34,7 +37,8 @@ public class LowerPartMovement : MonoBehaviour
             {
                 dashElapsed -= Time.fixedDeltaTime;
                 myBody.AddForce(this.transform.forward * botStats.DashForce);
-                if (dashElapsed < 0)
+
+				if (dashElapsed < 0)
                 {
                     dashIsCoolingDown = true;
                     dashCooldownElapsed = botStats.DashCooldown;
@@ -65,6 +69,10 @@ public class LowerPartMovement : MonoBehaviour
     {
         if (!dashIsCoolingDown)
         {
+//---------------------------------------------------------------------------Bruno
+			effect.TriggerDashEffect();
+//---------------------------------------------------------------------------
+	
             dashElapsed = botStats.DashDuration;
             dashIsCoolingDown = true;
             dashCooldownElapsed = botStats.DashCooldown;
