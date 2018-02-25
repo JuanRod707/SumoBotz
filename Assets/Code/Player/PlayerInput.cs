@@ -97,13 +97,13 @@ public class PlayerInput : MonoBehaviour
 
 			if(dPadV == 1 && !DPadVPressed)
 			{
-				taunt.Trigger(bot.PlayerId, "up");
+				taunt.Trigger(bot.PlayerId, 0);
 				DPadVPressed = true;
 			}
 								
 			if(dPadV == -1 && !DPadVPressed)
 			{				
-				taunt.Trigger(bot.PlayerId, "down");
+				taunt.Trigger(bot.PlayerId, 1);
 				DPadVPressed = true;
 			}
 				
@@ -116,13 +116,13 @@ public class PlayerInput : MonoBehaviour
 
 			if(dPadH == 1 && !DPadHPressed)
 			{
-				taunt.Trigger(bot.PlayerId, "right");
+				taunt.Trigger(bot.PlayerId, 2);
 				DPadHPressed = true;
 			}
 
 			if(dPadH == -1 && !DPadHPressed)
 			{
-				taunt.Trigger(bot.PlayerId, "left");
+				taunt.Trigger(bot.PlayerId, 3);
 				DPadHPressed = true;
 			}
 
