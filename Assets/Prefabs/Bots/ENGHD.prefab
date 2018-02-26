@@ -2079,8 +2079,7 @@ MonoBehaviour:
   PlayerId: 2
   LowerController: {fileID: 114806630463214400}
   UpperController: {fileID: 114958780431572082}
-  ExplosionPf: {fileID: 1651337599331264, guid: cf934469f9ccee54792a83bd1385a179,
-    type: 2}
+  ExplosionPf: {fileID: 105310, guid: e6ea0c2b13012484ba2f5dc1054e6d75, type: 2}
   PlayerRing: {fileID: 212088942704828532}
   Weapons: {fileID: 0}
 --- !u!114 &114654176832594296
@@ -2114,8 +2113,14 @@ MonoBehaviour:
   - {fileID: 156528, guid: 93a7485b7f1564c4aae6a739c3edc50e, type: 2}
   - {fileID: 110490, guid: 3a1dd40f2c911e541afb98fc9829ec06, type: 2}
   DamageEffects:
-  - {fileID: 130346, guid: 07bf9ced87963e24299c2c2a22bfeeb6, type: 2}
+  - {fileID: 122924, guid: 02602c03e3a632f44a268976f34add18, type: 2}
+  - {fileID: 136800, guid: 50c0d8c73dfeed248826c384c274984d, type: 2}
+  - {fileID: 160086, guid: c217f262fea9e90468154f70d667707c, type: 2}
   DashEffect: {fileID: 187952, guid: c05e92eaee7a00844867e5edc8e0dde1, type: 2}
+  EmpDebuffs:
+  - {fileID: 155164, guid: 2ed06ab528b7c474eb9246421cd7c791, type: 2}
+  ConfettiEffect: {fileID: 129898, guid: 36bdc02b23d9ca94d93bd715c0cca5c0, type: 2}
+  SlamEffect: {fileID: 195466, guid: 56c3274d2f9ec214ab584a80b5ce2d6d, type: 2}
 --- !u!114 &114806630463214400
 MonoBehaviour:
   m_ObjectHideFlags: 1

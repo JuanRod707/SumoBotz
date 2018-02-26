@@ -6,8 +6,11 @@ public class EffectManager : MonoBehaviour
 	public GameObject[] TauntEffects;
 	public GameObject[] DamageEffects;
 	public GameObject DashEffect;
+    public GameObject[] EmpDebuffs;
+    public GameObject ConfettiEffect;
+    public GameObject SlamEffect;
 
-	private ParticleSystem parts;
+    private ParticleSystem parts;
 	private float totalDuration;
 
 	private GameObject currentTaunt;
@@ -40,4 +43,23 @@ public class EffectManager : MonoBehaviour
 		totalDuration = parts.duration + parts.startLifetime;
 		Destroy (dash, totalDuration);
 	}
+
+    public void TriggerEmpDebuff()
+    {
+        var debuffPostion = new Vector3(this.transform.position.x, this.transform.position.y + 4, this.transform.position.z);
+        var debuff = Instantiate(EmpDebuffs[0], debuffPostion, Quaternion.identity);
+        debuff.transform.parent = this.transform;
+        parts = debuff.GetComponent<ParticleSystem>();
+        totalDuration = parts.duration + parts.startLifetime;
+        Destroy(debuff, totalDuration);
+    }
+
+    public void TriggerConfetti()
+    {
+        var confettiPosition = new Vector3(this.transform.position.x, this.transform.position.y + 4, this.transform.position.z);
+        var confetti = Instantiate(ConfettiEffect, confettiPosition, Quaternion.identity);
+        parts = confetti.GetComponent<ParticleSystem>();
+        totalDuration = parts.duration + parts.startLifetime;
+        Destroy(confetti, totalDuration);
+    }
 }

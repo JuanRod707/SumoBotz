@@ -32,6 +32,7 @@ namespace Assets.Code.Game
                 }
 
                 var winner = playersInGame.First(x => x.IsAlive);
+                winner.GetComponent<EffectManager>().TriggerConfetti();
                 EndPanel.SetActive(true);
                 EndGameText.SetLabel(winner.PlayerId, winner.Country.ToString().ToUpper());
             }

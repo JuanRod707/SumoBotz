@@ -22,6 +22,7 @@ public class EmpShockwave : MonoBehaviour
             var target = other.GetComponentInParent<PlayerBot>();
             if (target.PlayerId != ownerId)
             {
+                target.GetComponent<EffectManager>().TriggerEmpDebuff();
                 target.GetComponent<PlayerInput>().DisableInputFor(stunDuration);
             }
         }
