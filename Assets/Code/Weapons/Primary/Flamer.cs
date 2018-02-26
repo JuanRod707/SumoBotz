@@ -7,6 +7,7 @@ public class Flamer : PrimaryWeaponBase
     public ParticleSystem[] flames;
 
     private FlamerCollision collider;
+    private AudioSource sfx;
 
     public override PrimaryWeaponStats GetStats
     {
@@ -19,6 +20,10 @@ public class Flamer : PrimaryWeaponBase
         foreach (var f in flames)
         {
             f.Emit(1);
+            if (!sfx.isPlaying)
+            {
+                sfx.Play();
+            }
         }
     }
 
@@ -29,6 +34,7 @@ public class Flamer : PrimaryWeaponBase
             flames = GetComponentsInChildren<ParticleSystem>();
             collider = GetComponentInChildren<FlamerCollision>();
             collider.SetStats(Stats.Damage);
+            sfx = GetComponent<AudioSource>();
         }
     }
 

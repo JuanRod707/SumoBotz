@@ -63,6 +63,7 @@ namespace Code.Player
                 Instantiate(ExplosionPf, transform.position, Quaternion.identity);
                 director.OnPlayerKilled(this);
                 gameObject.SetActive(false);
+                uiController.PlayerKilled();
             }
         }
     }

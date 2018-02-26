@@ -41,19 +41,16 @@ namespace  Code.Player
 
         public void ResetDashCooldown()
         {
-            playerHud.ResetDashCooldown(botStats.DashCooldown);
             floatHud.ResetDashCooldown(botStats.DashCooldown);
         }
 
         public void ResetPrimaryCooldown()
         {
-            playerHud.ResetPrimaryCooldown(primaryStats.ReloadTime);
             floatHud.ResetPrimaryCooldown(primaryStats.ReloadTime);
         }
 
         public void ResetSecondaryCooldown()
         {
-            playerHud.ResetSecondaryCooldown(secondaryStats.Cooldown);
             floatHud.ResetSecondaryCooldown(secondaryStats.Cooldown);
         }
 
@@ -70,6 +67,12 @@ namespace  Code.Player
         public void EmptySecondary()
         {
             floatHud.EmptySecondary();
+        }
+
+        public void PlayerKilled()
+        {
+            floatHud.Deactivate();
+            playerHud.Dim();
         }
     }
 

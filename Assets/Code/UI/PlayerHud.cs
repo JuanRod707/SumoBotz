@@ -6,16 +6,11 @@ namespace Assets.Code.UI
     public class PlayerHud : MonoBehaviour
     {
         public Image HpBar;
-        //public Image DashBar;
-        //public Image PrimaryIcon;
-        //public Image SecondaryIcon;
         public Image RobotFace;
         public int PlayerId;
+        public float DimmedAlpha;
 
         private AberratePosition faceAberration;
-        private float primaryRecovery;
-        private float secondaryRecovery;
-        private float dashRecovery;
 
         public void LoadFace(Sprite face)
         {
@@ -30,40 +25,9 @@ namespace Assets.Code.UI
             faceAberration.StartEffect();
         }
 
-        public void ResetDashCooldown(float cooldown)
+        public void Dim()
         {
-            //DashBar.fillAmount = 0f;
-            dashRecovery = (1/cooldown) * Time.deltaTime;
-        }
-
-        public void ResetPrimaryCooldown(float cooldown)
-        {
-            //PrimaryIcon.fillAmount = 0f;
-            primaryRecovery = (1 / cooldown) * Time.deltaTime;
-        }
-
-        public void ResetSecondaryCooldown(float cooldown)
-        {
-            //SecondaryIcon.fillAmount = 0f;
-            secondaryRecovery = (1 / cooldown) * Time.deltaTime;
-        }
-
-        void Update()
-        {
-            //if (DashBar.fillAmount < 1)
-            //{
-            //    DashBar.fillAmount += dashRecovery;
-            //}
-
-            //if (PrimaryIcon.fillAmount < 1)
-            //{
-            //    PrimaryIcon.fillAmount += primaryRecovery;
-            //}
-
-            //if (SecondaryIcon.fillAmount < 1)
-            //{
-            //    SecondaryIcon.fillAmount += secondaryRecovery;
-            //}
+            GetComponent<CanvasGroup>().alpha = DimmedAlpha;
         }
     }
 }

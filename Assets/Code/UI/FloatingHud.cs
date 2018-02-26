@@ -56,6 +56,11 @@ namespace Assets.Code.UI
             secondaryRecovery = (1 / cooldown) * Time.deltaTime;
         }
 
+        public void Deactivate()
+        {
+            gameObject.SetActive(false);
+        }
+
         void Update()
         {
             if (DashBar.fillAmount < 1)

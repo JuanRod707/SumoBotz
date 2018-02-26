@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using Assets.Code.Effects;
 using Code.Player;
 using UnityEngine;
 
@@ -9,6 +10,7 @@ namespace Assets.Code.Game
     {
         public GameObject EndPanel;
         public DynamicLabel EndGameText;
+        public EndCameraZoom Camera;
 
         private List<PlayerBot> playersInGame;
 
@@ -35,6 +37,7 @@ namespace Assets.Code.Game
                 winner.GetComponent<EffectManager>().TriggerConfetti();
                 EndPanel.SetActive(true);
                 EndGameText.SetLabel(winner.PlayerId, winner.Country.ToString().ToUpper());
+                Camera.ZoomTo(winner.transform);
             }
         }
     }
