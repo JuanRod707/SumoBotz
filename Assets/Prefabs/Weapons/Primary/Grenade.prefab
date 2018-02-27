@@ -414,7 +414,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ExplosionPf: {fileID: 1651337599331264, guid: cf934469f9ccee54792a83bd1385a179,
     type: 2}
-  Lifetime: 4
+  Lifetime: 10
   RotationFactor: 6
 --- !u!114 &114726712454278584
 MonoBehaviour:

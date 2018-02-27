@@ -781,7 +781,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1465206097505938}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.13, z: 0.03}
+  m_LocalPosition: {x: 0.08, y: 0.062, z: -0.365}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4133706234797060}
@@ -2542,14 +2542,13 @@ MonoBehaviour:
   - {fileID: 156528, guid: 93a7485b7f1564c4aae6a739c3edc50e, type: 2}
   - {fileID: 110490, guid: 3a1dd40f2c911e541afb98fc9829ec06, type: 2}
   DamageEffects:
-  - {fileID: 122924, guid: 02602c03e3a632f44a268976f34add18, type: 2}
-  - {fileID: 136800, guid: 50c0d8c73dfeed248826c384c274984d, type: 2}
-  - {fileID: 160086, guid: c217f262fea9e90468154f70d667707c, type: 2}
+  - {fileID: 102696, guid: 185035e4680c4b344b62bf5ace4674b8, type: 2}
+  - {fileID: 115286, guid: ec1c5863f61e8ff4a84dbdb8a282a7ac, type: 2}
+  - {fileID: 183222, guid: f2ee009e61b1177489331d95174281b1, type: 2}
   DashEffect: {fileID: 187952, guid: c05e92eaee7a00844867e5edc8e0dde1, type: 2}
   EmpDebuffs:
   - {fileID: 155164, guid: 2ed06ab528b7c474eb9246421cd7c791, type: 2}
   ConfettiEffect: {fileID: 129898, guid: 36bdc02b23d9ca94d93bd715c0cca5c0, type: 2}
-  SlamEffect: {fileID: 195466, guid: 56c3274d2f9ec214ab584a80b5ce2d6d, type: 2}
 --- !u!114 &114949895788248830
 MonoBehaviour:
   m_ObjectHideFlags: 1

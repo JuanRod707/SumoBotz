@@ -8,7 +8,6 @@ public class EffectManager : MonoBehaviour
 	public GameObject DashEffect;
     public GameObject[] EmpDebuffs;
     public GameObject ConfettiEffect;
-    public GameObject SlamEffect;
 
     private ParticleSystem parts;
 	private float totalDuration;

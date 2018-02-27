@@ -1376,11 +1376,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WeaponType: 4
   Stats:
-    Damage: 2
-    AmmoCap: 100
+    Damage: 1
+    AmmoCap: 25
     PushForce: 0
     ReloadTime: 4
-    RateOfFire: 0.01
+    RateOfFire: 0.000001
   flames: []
 --- !u!114 &114568257021490004
 MonoBehaviour:

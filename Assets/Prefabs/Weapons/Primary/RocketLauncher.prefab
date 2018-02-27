@@ -1353,8 +1353,8 @@ MonoBehaviour:
   Stats:
     Damage: 18
     AmmoCap: 5
-    PushForce: 50000
-    ReloadTime: 5
-    RateOfFire: 1
+    PushForce: 25000
+    ReloadTime: 8
+    RateOfFire: 0.5
   LaunchPosition: {fileID: 4698500684189408}
   RocketPf: {fileID: 1558870428797568, guid: 2a2600c6175083f41b61702acdcebbf3, type: 2}

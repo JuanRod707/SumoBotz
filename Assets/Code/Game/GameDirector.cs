@@ -30,13 +30,14 @@ namespace Assets.Code.Game
             {
                 foreach (var p in playersInGame)
                 {
-                    p.GetComponent<PlayerInput>().DisableInputFor(500f);
+                    p.GetComponent<PlayerInput>().DisableInputFor(1f);
                 }
 
                 var winner = playersInGame.First(x => x.IsAlive);
                 winner.GetComponent<EffectManager>().TriggerConfetti();
                 EndPanel.SetActive(true);
                 EndGameText.SetLabel(winner.PlayerId, winner.Country.ToString().ToUpper());
+                winner.GetComponent<BotUIController>().PlayerKilled();
                 Camera.ZoomTo(winner.transform);
             }
         }

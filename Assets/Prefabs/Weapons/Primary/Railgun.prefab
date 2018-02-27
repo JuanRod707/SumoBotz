@@ -620,9 +620,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WeaponType: 3
   Stats:
-    Damage: 23
-    AmmoCap: 1
-    PushForce: 18000
+    Damage: 40
+    AmmoCap: 2
+    PushForce: 25000
     ReloadTime: 4
     RateOfFire: 2
   Muzzle: {fileID: 198045989400250490}

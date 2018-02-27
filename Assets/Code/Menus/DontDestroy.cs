@@ -1,0 +1,25 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class DontDestroy : MonoBehaviour {
+
+    // Use this for initialization
+    void Awake()
+    {
+        GameObject[] objs = GameObject.FindGameObjectsWithTag("music");
+
+        if (objs.Length > 1)
+        {
+            Destroy(this.gameObject);
+        }
+
+        var lastMusic = GameObject.Find("MusicPlayer").GetComponent<AudioSource>();
+        if (!lastMusic.isPlaying)
+        {
+            lastMusic.Play();
+        }
+
+        DontDestroyOnLoad(this.gameObject);   
+	}
+}

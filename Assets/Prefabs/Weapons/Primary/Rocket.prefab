@@ -253,7 +253,7 @@ Transform:
   m_GameObject: {fileID: 1654459169730358}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0.178}
-  m_LocalScale: {x: 0.2, y: 0.1, z: 0.3}
+  m_LocalScale: {x: 0.2, y: 0.1, z: 0.7}
   m_Children: []
   m_Father: {fileID: 4549557965350074}
   m_RootOrder: 4
@@ -265,7 +265,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1558870428797568}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0096, y: 0, z: 0.339}
+  m_LocalPosition: {x: -8.111607, y: 1.0000019, z: 4.0953674}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4681759121689602}
@@ -527,10 +527,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c22cd66abf7734449301ed6dbd25d58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Lifespan: 8
-  Acceleration: 0.05
+  Lifespan: 3
+  Acceleration: 0.3
   TurnStrength: 3
-  IdleTime: 0.5
+  IdleTime: 0.1
   MaxSpeed: 0.25
   Explosion: {fileID: 1651337599331264, guid: cf934469f9ccee54792a83bd1385a179, type: 2}
 --- !u!114 &114478423379261512

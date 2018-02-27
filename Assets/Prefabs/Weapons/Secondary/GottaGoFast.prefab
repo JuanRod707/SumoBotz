@@ -1064,8 +1064,8 @@ MonoBehaviour:
   - {fileID: 198804528918960936}
   - {fileID: 198298865900142258}
   Stats:
-    EffectDuration: 5
-    Cooldown: 15
+    EffectDuration: 3
+    Cooldown: 8
     SpeedMultiplier: 2
 --- !u!198 &198298865900142258
 ParticleSystem:

@@ -399,7 +399,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 51dbf5a38e4dfb949961db9f96d6b03d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: c922c34f559ead440a273a13a924cfc7, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.05
   m_Pitch: 1
@@ -498,16 +498,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WeaponType: 0
   Stats:
-    Damage: 4
-    AmmoCap: 20
+    Damage: 1
+    AmmoCap: 60
     PushForce: 15000
-    ReloadTime: 3
-    RateOfFire: 0.15
+    ReloadTime: 8
+    RateOfFire: 0.05
   BarrelRotator: {fileID: 114538079331363376}
   Muzzle: {fileID: 198765906956576290}
   GGStats:
-    Accuracy: 87
-    Range: 10
+    Accuracy: 95
+    Range: 20
   ShotHitPf: {fileID: 1365811965351650, guid: b898e125aa32a1242bbd1db2baaf8704, type: 2}
   ShotLinePf: {fileID: 1949691622663962, guid: 9da52275478a51d4f80813c4e6178261, type: 2}
 --- !u!198 &198765906956576290
